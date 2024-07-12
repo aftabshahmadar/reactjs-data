@@ -1,0 +1,1 @@
+console.log("hi i am just checking the output of javascript")

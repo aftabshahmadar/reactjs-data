@@ -1,0 +1,26 @@
+<!--Q.34Write a JavaScript program to convert an array of objects into CSV string?-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var convertCSV = (data) =>
+        [
+          Object.keys(data[0]).join(","),
+          ...data.map((obj) => Object.values(obj).join(",")),
+        ].join("\n");
+
+      var data = [
+        { name: "bharat", age: 23, city: "Ahmedabad" },
+        { name: "sushil", age: 22, city: "vadodara" },
+      ];
+
+      var csvString = convertCSV(data);
+      console.log(csvString);
+  </script>
+</body>
+</html>

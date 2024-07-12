@@ -1,0 +1,48 @@
+<!--Q.57 how many type of JS Event? How to use it ?
+
+:- mouse events
+
+- onclick
+- onmouseover
+- onmouseout
+- onmousedown
+- onmouseup
+- onmousemove
+
+:- window events
+
+- onload
+- onunload
+- onresize
+
+:- event handler
+
+- onfocus
+- onsubmit
+- onblur
+- onchange
+
+:- keyword
+
+- onkeydown
+- onkeyup
+-->
+
+<!--focus event code is written after this.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>enter something here</h3>
+    <input type="txt" id="input" onfocus="focusevent()" />
+    <script>
+      function focusevent() {
+        document.getElementById("input").style.background = "pink";
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!--
+Q.38 Use pattern in console.log in JS?
+
+### q1
+
+    1 0
+    1 0 1
+    1 0 1 0
+    1 0 1 0 1
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        str = "";
+        counter = 0;
+        for (i = 1; i < 5; i++) {
+          for (j = 0; j <= i; j++) {
+            if (str[str.length - 1] == "1") {
+              str = str + "0";
+            } else {
+              str = str + "1";
+            }
+          }
+          str = str + "\n";
+        }
+        console.log(str);
+  </script>
+    
+</body>
+</html>

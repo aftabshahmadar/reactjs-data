@@ -1,0 +1,22 @@
+<!--Q.9 Write a JavaScript exercise to get the extension of a filename.?-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function getFileExtension(filename) {
+          var getFileExtension = filename.split(".").pop();
+          return getFileExtension;
+        }
+        var result = getFileExtension("javascriptdom.html");
+        console.log(result);
+      </script>
+    
+</body>
+</html>

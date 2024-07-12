@@ -1,0 +1,56 @@
+<!--Q.4 Q.4Write a JavaScript program to calculate days left until next Christmas?Write a JavaScript program to calculate days left until next Christmas?-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function getDaysForGivenMonth(month) {
+          switch (month) {
+            case 0:
+            case 2:
+            case 4:
+            case 6:
+            case 7:
+            case 9:
+              return 31;
+            case 1:
+              return 28;
+            case 3:
+            case 5:
+            case 8:
+            case 10:
+              return 30;
+          }
+        }
+      
+        // console.log(getDaysForGivenMonth(2));
+        currentMonth = new Date().getMonth();
+        console.log(currentMonth);
+        totalDaysInThisMonth = getDaysForGivenMonth(currentMonth);
+        // console.log(totalDaysInThisMonth);
+        currentDateOfThisMonth = new Date().getDate();
+        // console.log(currentDateOfThisMonth);
+        daysLeftInCurrentMonth = totalDaysInThisMonth - currentDateOfThisMonth;
+        // console.log(getMonthDaysCount);
+      
+        getRemainingDays =
+          daysLeftInCurrentMonth +
+          getDaysForGivenMonth(currentMonth + 1) +
+          getDaysForGivenMonth(currentMonth + 2) +
+          getDaysForGivenMonth(currentMonth + 3) +
+          getDaysForGivenMonth(currentMonth + 4) +
+          getDaysForGivenMonth(currentMonth + 5) +
+          getDaysForGivenMonth(currentMonth + 6) +
+          getDaysForGivenMonth(currentMonth + 7) +
+          25;
+      
+        console.log(getRemainingDays);
+      </script>
+    
+</body>
+</html>

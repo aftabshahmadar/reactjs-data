@@ -1,0 +1,42 @@
+<!--Q.55 Form in Email, number, Password, Validation?-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="jk">
+        <form action="">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+      
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].{8,})"
+            title="must contain at least one number and one uppercase and lowercase letter,and at least 8 or more characters "
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      
+      <div id="message">
+        <h2>Password must contain the following:</h2>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital(uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+
+      <script>
+        let email = "jay@gmail.com";
+        let emailPattern = /^[a-zA-Z0-9._s%+-]+@[a-zA-Z0-9.-]\.[a-zA-Z]{2,}$/;
+        let isValid = emailPattern.test(email);
+        console.log(isValid);
+      </script>
+</body>
+</html>
