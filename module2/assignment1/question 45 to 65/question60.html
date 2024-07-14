@@ -1,0 +1,29 @@
+<!--Q.60 Array vs object defences in JS?
+
+
+ ans. array is set of data,data  collections which can be stored at memory locations.
+ user have to write array index for accessing particular data elements in some memory locations.
+ The array can store data types like Integer, Float, String, and Boolean all the primitive data types can be stored in an array.
+ e.x. var array=[aftab,1,2,3,1.5,3.5,true,false];
+ object is store many value in a single variable.
+ object store person's details, car name and many more etc.-->
+
+ <!DOCTYPE html>
+ <html>
+ <body>
+ 
+ <p id="obj"></p>
+ 
+ <script>
+ let personData = {
+   firstName : "aftab",
+   lastName  : "shahmadar",
+   age       : "19",
+   eyeColor  : "brown"
+ };
+ 
+ document.getElementById("obj").innerHTML = personData.age;
+ </script>
+ 
+ </body>
+ </html>

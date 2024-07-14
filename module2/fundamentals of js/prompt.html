@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arthematic operation</title>
+</head>
+<body>
+    <script>
+        function addition(){
+            var a = parseFloat(prompt("enter the number a : "));
+            var b = parseFloat(prompt("enter the number b : "));
+            var c = a + b;
+            if(isNaN(a) || isNaN(b)){
+                alert("please enter the numbers only")
+            }
+            else{
+                alert("the addition of a and b is :" +c)
+            }
+        }
+        function substraction(){
+            var a = parseFloat(prompt("enter the number a : "));
+            var b = parseFloat(prompt("enter the number b : "));
+            var c = a - b;
+            if(isNaN(a) || isNaN(b)){
+                alert("please enter the numbers only")
+            }
+            else{
+                alert("the substraction of a and b is :" +c)
+            }
+        }
+        function division(){
+            var a = parseFloat(prompt("enter the number a : " ));
+            var b = parseFloat(prompt("enter the number b : "));
+            var c = a / b;
+            if(isNaN(a) || isNaN(b)){
+                alert("please enter the numbers only")
+            }
+            else{
+                alert("the division of a and b is :" +c)
+            }
+        }
+        function multiplication(){
+            var a = parseFloat(prompt("enter the number a : "));
+            var b = parseFloat(prompt("enter the number b : "));
+            var c = a * b;
+            if(isNaN(a) || isNaN(b)){
+                alert("please enter the numbers only")
+            }
+            else{
+                alert("the multiplication of a and b is :" +c)
+            }
+        }
+    </script>
+    
+    <button type="button" onclick="addition()">addition</button>
+    <button type="button" onclick="substraction()">substraction</button>
+    <button type="button" onclick="division()">division</button>
+    <button type="button" onclick="multiplication()">multiplication</button>
+</body>
+</html>
