@@ -1,0 +1,24 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: azure;
+}
+.calculator-app
+{
+    width: 60% !important;
+    height: auto !important;
+}
+.calculator-app input 
+{
+    text-align: right !important;
+    font-size: 30px;
+}
+#btn 
+{
+    width: 24.5%;
+    height: 80px;
+    padding: 29px;
+}

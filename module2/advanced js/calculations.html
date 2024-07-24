@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #checkname{
+            transition: all 2s ease;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" id="checkname">check name</button>
+    <script>
+        function display()
+        {
+            var myvar = "aftab";
+            var button = document.getElementById('checkname')
+            button.innerHTML='the name is :'+myvar;
+            button.style.backgroundColor = 'black';
+            button.style.color = 'white';
+            button.style.fontSize = '20px';
+            button.style.border = 'none';
+            button.style.padding = '10px 20px';
+            button.style.borderRadius = '5px';
+ 
+
+        }
+        document.getElementById('checkname').addEventListener('click',display);
+        
+        
+    </script>
+
+    
+    
+</body>
+</html>

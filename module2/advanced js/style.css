@@ -1,0 +1,37 @@
+body 
+{
+    margin: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#main-content 
+{
+    width: 100%;
+    height: auto;
+    display: none;
+
+}
+
+.main
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    margin-top: 5%;
+    box-shadow:2px 2px 2px 3px;
+    position: relative;
+
+}
+
+#loader 
+{
+    width: 300px;
+    height: 300px;
+    background: url('images/shopingcart.gif.gif') no-repeat;
+    background-size: 300px 300px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
