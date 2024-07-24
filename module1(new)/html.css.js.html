@@ -1,0 +1,98 @@
+<!-----------
+what is html css and js ?
+
+This corresponds to the three different types of files that you can use in your first website.
+
+An HTML file contains the structure of the page itself. It is kind of like the structure of the building.
+
+A CSS file contains the styling of the page. It allows you to change colors, positioning and more. It is kind of like the design of the building itself.
+
+A JavaScript file determines the dynamic and interactive elements on the page. It determines what happens when users click, hover, or type within certain elements. This is kind of like the functionality of the building.
+
+Let’s take the example of one of the houses. A house has two bedrooms, two bathrooms, and two stories. That is the HTML of the building.
+
+It is made of brick and has a solid wood door. That corresponds to the CSS of the building.
+
+What can you do within the house? You can eat, sleep, make meals… anything that you do at home, really! That is the JavaScript of the building.
+
+1*3GaOb3tSGoZe4DjTZg9VXQ
+1*5GAPClpa09DmNcCslMA23Q
+An example of a basic file directory
+Since each of these three languages serves a different purpose, web developers generally use separate files for each one. This idea is called “separation of concerns” — each file should have a different function within the site as a whole.
+
+Although you could technically include all the code in one HTML file, that will eventually lead to repetitive code as you grow your site.
+
+Let’s look at the code needed to create one complete house. All three files must be in the same directory — a folder on your computer. In this case, let’s call the folder house. In our house folder, we will have one file of each type. I will call the main HTML file index, the main CSS file styles, and the main JavaScript file scripts.
+
+1*YZOpTO65ASByn5i29VDmRQ
+1*18ZU8N-2YsccoCU8z9uWOw
+Now we can cover the way that files become linked in code.
+
+Our HTML file actually has three separate sections:
+
+The <head>, where you can include metadata and links to services like Google Fonts.
+The <body>, where you include the actual HTML elements.
+The <script> tags, which can link to Google Analytics and JavaScript files
+Right now, all three files are contained within one folder, so the file paths are pretty simple within the HTML file.
+
+1*pOBUVpf8jG1SMvlv7R4E9g
+The <link> tag will allow you to create a separate stylesheet to use with all brick houses using the styles.css file.
+
+And the <script> tag allows you to create a set of functions that would apply to any type of home in the scripts.js file.
+
+Scenario 1: a new pizza chain moves in (CSS file change)
+Let’s look at a real-world example. Imagine that in this neighborhood, one of the buildings is a pizza shop called Neighborhood Pizza (great name). But, Neighborhood Pizza is struggling, and Domino’s (a huge pizza chain) decides to buy the property and serve the neighborhood instead.
+
+0*HM67ZGkZ913HLLqu
+Do you know what this would mean in terms of code?
+
+Well, let’s think through each of the three pieces.
+
+The structure of the building is the same. It’s still the same pizza place. That is the HTML.
+The functionality of the building is the same. It still exists in order to serve pizza, and when customers come in, that is the only thing they expect. That is the JavaScript.
+But the styling and branding of the building is different! That means the CSS is new.
+So, we have now created a new CSS file (let’s call it Dominos.css). We need to create a folder called pizza to show we are talking about a pizza place now, and substitute dominos.css for the old styles.css file.
+
+1*Cbrhmfv7aXM-LkfrfL2JUQ
+1*1YOCfrsFIWq-bJRYioaaFQ
+Scenario 2: a new apartment building
+Here’s another example. Let’s say your neighborhood is undergoing some gentrification. That means wealthier residents are moving in, and more expensive housing is being built. Some real estate developers decide to buy up a lot with a house on it, demolish the house, and put in some fancy apartments.
+
+0*_PA4fk1-hIzyQRc2
+Let’s think about what that would mean in terms of our file system.
+
+The functionality is the same thing. It’s still a home. That means JavaScript is the same.
+The CSS must be different because there is no way that an apartment building can be styled in the same way as a house!
+And the HTML file must be different, because the two buildings have completely different structures.
+Let’s call the new building apartment.html, and the new CSS will be fancy.css. Since we have an entirely new HTML file, we are not simply linking up a new CSS file. The entire page is different. And it also links to a new CSS file.
+
+1*T8leHgkgP-X8L_wcsM2kCQ
+1*aKoiZBHRCzjLCPp6weEwWA
+The CSS and JavaScript files simply modify the HTML. They need to be referenced in the HTML file in order to be loaded. That is why, in the diagram above, the folder itself is the same. But the HTML file and the code that links it to the other files are different.
+
+Creating a file directory with multiple folders
+So far, we have covered just one type of building at a time. But that’s kind of like a website with just one page — very unusual. Even a personal website might have an “About” page, a “Portfolio” page, and so on. So what happens when there are multiple buildings? How can you structure your file directory?
+
+Let’s say that your neighborhood has a bank, a mall and a pizza place. That’s kind of like a website with three pages. Each one is an HTML file with a CSS file and JavaScript file linked to it.
+
+1*nXl1p_RnKNh3_iOD7fPXhw
+1*tUpDr4vgMsncf2XgHRv5Yg
+But, notice how we did not use three subfolders within a greater neighborhood folder! Although we certainly could have done that, many front-end developers like to create a separate scripts folder for all JS files, and a styles folder for all CSS files.
+
+As your site grows, you will find that some pieces of CSS and JavaScript are reuseable, and can be linked to multiple HTML files. The scripts and styles folders allow you to organize your efforts and reduce redundant code.
+
+In our example, you can order a greasy slice of pizza in both a mall AND a pizza shop. So, you might expect that both would share one JavaScript file, but also have unique functionality in their own individual JavaScript files.
+
+Anyways, here is a potential layout of the whole file directory.
+
+0*6ADmIY53-wQGVP9M
+Notice how the HTML files and folders are the same level of depth within the greater neighborhood folder. In order to reference files that are within folders at the same level, you need to start your filepath with the folder name instead of a file name. So, if you wanted to reference the bank.css file from within bank.html, you would use scripts/bank.css as the file path.
+
+Get the latest tutorials
+Did you enjoy this tutorial? Give it a “clap” and let me know in the comments. Or, get my latest web development explanations by signing up for my newsletter:
+
+ADVERTISEMENT
+
+
+
+-->
