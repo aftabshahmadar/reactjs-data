@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi level inheritence</title>
+</head>
+<body>
+    <script>
+    class scl
+    {
+        constructor(school)
+        {
+            this.school=school;
+        }
+    }
+    class trsty extends scl
+    {
+        constructor(school, trstname)
+        {
+              super(school);
+              this.trstname=trstname;
+        }
+    }
+    class prnspl extends trsty
+    {
+        constructor(school, trstname, prnsplname)
+        {
+            super(school, trstname);
+            this.prnsplname=prnsplname
+        }
+    }
+    class stdnt extends prnspl
+    {
+        constructor(school, trstname, prnsplname, stdntname, stdntage, stdntclass)
+        {
+            super(school, trstname, prnsplname);
+            this.stdntname=stdntname
+            this.stdntage=stdntage
+            this.stdntclass=stdntclass
+        }
+    }
+
+    var obj=new stdnt("saint marry's high school upleta","shushil sir","anurag sir","aftab", 19,"10th class")
+    console.log(obj);
+
+
+    </script>
+    
+</body>
+</html>

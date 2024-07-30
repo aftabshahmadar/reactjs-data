@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single level inheritence</title>
+</head>
+<body>
+    <script>
+        class nm
+        {
+            constructor(name)
+            {
+                this.name=name;
+            }
+        }
+        class dtl extends nm
+        {
+            constructor(name, age, address)
+            {
+                super(name);
+                this.age=age;
+                this.address=address;
+            }
+        }
+        var obj=new dtl("aftab", 19, "gebansha pir road junction plot rajkot");
+        console.log(obj)
+    </script>
+</body>
+</html>

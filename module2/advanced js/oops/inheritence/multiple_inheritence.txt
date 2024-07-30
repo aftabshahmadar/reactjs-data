@@ -1,0 +1,1 @@
+NOTE :- Javascript supports only two types of inheritence which are single level and multilevel inheritence and do not support multiple inheritence.
