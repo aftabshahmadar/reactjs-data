@@ -1,0 +1,9 @@
+what is js objects ?
+
+:-js object is used to set state and behaviour i.e called object 
+   js object initialised within {} with propert:value 
+   js objects are lso defined in three ways  
+
+     a- object as literals 
+     b- object as instance 
+     c- object as constructor  
