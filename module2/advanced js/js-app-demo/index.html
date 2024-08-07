@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-app-demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="centered-content">
+        <form id="login-form">
+            <div class="form-group">
+                <h3>All feilds are mandatory</h3>
+                <label for="nm">Username:</label>
+                <input type="text" id="nm" name="nm" placeholder="name *" required>
+            </div>
+            <div class="form-group">
+                <label for="ps">Password:</label>
+                <input type="password" id="ps" name="ps" placeholder="password *" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit"/>
+            </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
