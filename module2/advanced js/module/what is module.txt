@@ -1,0 +1,7 @@
+
+
+we can use a files logic inside another file by using module.
+
+we can use "export" and "import"method to use module.
+
+we mostly use module in react.

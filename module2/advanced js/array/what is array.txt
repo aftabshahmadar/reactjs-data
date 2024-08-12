@@ -1,0 +1,10 @@
+what is array  ?
+   
+  An array is a variable i.e used to stored multiple data in a single variables i.e called array.
+
+    array defined in javascript in 3 ways ...
+    
+    1) array as litrals
+    2) array as instance
+    3) array as constructor
+    
