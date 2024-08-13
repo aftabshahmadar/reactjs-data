@@ -1,0 +1,27 @@
+<script>
+    //when the name of the constructor and its arguments are same then that is called method overriding.
+
+class Add {
+
+
+    constructor (a,b)
+    {
+        this.a=a;
+        this.b=b;
+        this.res=a+b;
+    }
+}
+class Sub extends Add {
+
+
+    constructor(a,b)
+    {
+        super(a,b)
+        this.res=a*b
+    }
+}
+var obj = new Sub (10,20);
+console.log(obj);
+   
+
+</script>

@@ -1,0 +1,20 @@
+<script>
+        class scl
+    {
+        constructor(school)
+        {
+            this.school=school;
+        }
+    }
+    class trsty extends scl
+    {
+        constructor(school, trstname)
+        {
+              super(school); //super is used to extent or inherit the properties of the previous class in this class.
+              this.trstname=trstname;
+        }
+    }
+    var obj=new trsty("saint marrys high school", "prusha sister")
+    console.log(obj)
+</script>
+

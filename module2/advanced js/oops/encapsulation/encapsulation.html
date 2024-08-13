@@ -1,0 +1,33 @@
+<script>
+    // when we wrapp all data in a singkle object is called encapsulation.
+
+    class A
+    {
+        constructor()
+        {
+           var name;
+           var age;
+        }
+        getname()
+        {
+            return this.name;
+        }
+        setname(name)
+        {
+            this.name=name;
+        }
+        getage()
+        {
+            return this.age;
+        }
+        setage(age)
+        {
+            this.age=age;
+        }
+
+    }
+    var obj=new A()
+    obj.setname("aftab")
+    obj.setage(19)
+    console.log(obj.getname() + "\n" + obj.getage());
+</script>

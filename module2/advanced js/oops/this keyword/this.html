@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this keyword</title>
+</head>
+<body>
+    <script>
+        function demo(nm)
+        {
+            this.nm=nm  //this will store the currunt value of the variable nm.
+        }
+        var obj=new demo("aftab")
+        console.log(obj)
+    </script>
+</body>
+</html>

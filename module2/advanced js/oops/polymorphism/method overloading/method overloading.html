@@ -1,0 +1,26 @@
+<script>
+    // when the name of the constructors are same but they argumengts are different then that is called methode overloading.
+
+    class Add {
+
+
+    constructor (a,b)
+    {
+        this.a=a;
+        this.b=b;
+        this.res=a-b;
+    }
+}
+class Sub extends Add {
+
+
+    constructor(a,b,c)
+    {
+        super(a,b)
+        this.res=a-b-c
+    }
+}
+var obj = new Sub (10,20,30);
+console.log(obj);
+   
+</script>
