@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---
+    define Z-index.
+
+    ANS:- 
+    :- z-index is a CSS property used to control the stacking order of elements on a webpage.
+    :- Elements with a higher z-index value will appear in front of elements with a lower z-index value.
+    :- If no z-index is specified, elements are stacked based on their order in the HTML
+
+    -->
+
+    <style>
+        .box {
+            position: absolute; /* Required for z-index to work */
+            width: 100px;
+            height: 100px;
+        }
+
+        .box1 {
+            background-color: cadetblue;
+            z-index: 1; /* This box will be behind the other box */
+        }
+
+        .box2 {
+            background-color: red;
+            z-index: 2; /* This box will be in front of the cadetblue box */
+        }
+        .box3 {
+            background-color: purple;
+            z-index: 3; /* This box will be in front of the red box */
+        }
+    </style>
+</head>
+
+    <div class="box box1" style="top: 50px; left: 50px;">flex 1</div>
+    
+    <div class="box box2" style="top: 80px; left: 80px;">flex 2</div>
+    <div class="box box3" style="top: 110px; left: 110px;">flex 3</div>
+</body>
+</html>

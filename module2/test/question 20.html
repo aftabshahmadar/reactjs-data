@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---js function to find max no. imn an array
+    -->
+
+    <script>
+        function findHighestValue(arr) {
+            return Math.max(...arr);
+        }
+
+        // Example arrays
+        let numbers1 = [12,34,56,1];
+        let numbers2 = [-12,-34,0,-56,1];
+
+        // Find and display the highest values
+        let highestValue1 = findHighestValue(numbers1);
+        let highestValue2 = findHighestValue(numbers2);
+
+        console.log("Highest value in the first array: " + highestValue1);
+        console.log("Highest value in the second array: " + highestValue2);
+    </script>
+</body>
+</html>

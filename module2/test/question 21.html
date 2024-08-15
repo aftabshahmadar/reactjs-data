@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---js function to find min no. imn an array
+    -->
+
+    <script>
+        function findlowestValue(arr) {
+            return Math.min(...arr);
+        }
+
+        // Example arrays
+        let numbers1 = [12,34,56,1];
+        let numbers2 = [-12,-34,0,-56,1];
+
+        // Find and display the lowest values
+        let lowestValue1 = findlowestValue(numbers1);
+        let lowestValue2 = findlowestValue(numbers2);
+
+        console.log("lowest value in the first array: " + lowestValue1);
+        console.log("lowest value in the second array: " + lowestValue2);
+    </script>
+</body>
+</html>
