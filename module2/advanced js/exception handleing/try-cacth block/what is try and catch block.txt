@@ -1,0 +1,24 @@
+:-  The try...catch block in JavaScript is a way to handle errors gracefully in your code. 
+    It allows you to run code that might throw an error without stopping the entire program. 
+    If an error occurs in the try block, control is passed to the catch block, where you can handle the error, 
+    log it, or take some other action.
+
+
+
+
+SYNTAX :-
+
+           try
+            {
+                  // Code that might throw an error
+            
+            } catch (error) {
+            
+                 // Code to handle the error
+            
+            } finally 
+            
+            {
+                 // Optional code that will run regardless of whether an error occurred or not
+
+            }
