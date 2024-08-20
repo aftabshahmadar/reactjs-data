@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <title>Portfolio - Aftab Shahmadar</title>
 </head>
 <body>
-    <h1>It works!</h1>
+    <header>
+        <h1>Aftab Shahmadar</h1>
+        <p>Frontend web developer</p>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-----About section---->
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>Welcome to my portfolio! I am a passionate frontend developer with experience in creating responsive and dynamic websites.</p>
+    </section>
+<!------projects section-->
+
+    <section id="projects">
+     <h2>project 1</h2>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi reprehenderit reiciendis hic voluptas laudantium 
+        aperiam eum officia nam excepturi odit? Molestiae atque molestias animi ad, officiis dolor dolore labore optio?</p>
+        <button><a href="#"></a>view project.</button>
+
+        <h2>project 2</h2>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi reprehenderit reiciendis hic voluptas laudantium 
+        aperiam eum officia nam excepturi odit? Molestiae atque molestias animi ad, officiis dolor dolore labore optio?</p>
+        <button><a href="file:///C:\Users\91635\Desktop\my work\projects\project 9\index.html">View Project</button>
+    </section>
+
+    <!------Skills section-->
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>css</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+        </ul>
+    </section>
+
+    <!------Contact section-->
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="name *" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email *" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Message *" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aftab Shahmadr. All rights reserved.</p>
+    </footer>
+
+<script src="homepage.js"></script>
 </body>
 </html>

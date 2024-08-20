@@ -1,0 +1,3 @@
+filter is a array methods 
+filter is used to filters data from array on conditionaly.
+filter is used to return all array in list and check condition to return value acording to checked conditions there we used filter.

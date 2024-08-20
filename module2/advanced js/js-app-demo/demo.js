@@ -4,25 +4,27 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const username = document.getElementById('nm').value;
     const password = document.getElementById('ps').value;
 
-    // Show the loader
     document.getElementById('loader').style.display = 'block';
 
-    // Validation logic
-    const correctPassword = 'aftab2005';
-    const correctUsername = 'aftab shahmadar';
-
+    
     let errorMessage = '';
 
-    if (username !== correctUsername && password !== correctPassword) {
-        errorMessage = "You've entered both username and password incorrectly, please try again.";
-    } else if (username !== correctUsername) {
-        errorMessage = "You've entered the wrong username, please try again.";
-    } else if (password !== correctPassword) {
-        errorMessage = "You've entered the wrong password, please try again.";
-    }
+    
+    const correctPassword = 'aftab2005';
+    const correctUsername = 'aftab shahmadar'
 
-    if (errorMessage) {
-        // Show error message after a delay and hide the loader
+    if (username !== correctUsername && password !== correctPassword) {
+        swal("Oops!", "You've entered both username and password incorrectly, please try again.", "error");
+    } 
+    else if (username !== correctUsername) {
+        swal("Oops!", "You've entered the wrong username, please try again.", "error");
+    } 
+    else if (password !== correctPassword) {
+        swal("Oops!", "You've entered the wrong password, please try again.", "error");
+    } 
+
+    else if (errorMessage) {
+        // Hide the loader and show the error message
         setTimeout(function() {
             document.getElementById('loader').style.display = 'none';
             swal("Oops!", errorMessage, "error");
@@ -35,3 +37,6 @@ document.getElementById('login-form').addEventListener('submit', function(event)
         }, 3000); // Delay for 3 seconds
     }
 });
+
+
+    
