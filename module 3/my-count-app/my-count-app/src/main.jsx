@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const nm = "aftab";
+const nm = "masoud";
 const age = 19;
 const height = 6;
 const status = "student";
