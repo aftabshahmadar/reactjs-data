@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "./components/user/Header"; // Capitalize the 'H' in header
+import Header from "./components/user/header"; // Capitalize the 'H' in header
 import Navbar from './components/user/Navbar';
 import Slider from './components/user/Slider'; // Fix the typo: from 'Sliedr' to 'Slider'
 import Content from './components/user/Content';
