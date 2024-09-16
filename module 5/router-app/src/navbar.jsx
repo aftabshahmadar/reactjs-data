@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -7,7 +7,7 @@ export default function Navbar() {
       <ul className='container flex-initial text-white flex space-x-40 justify-between'>
         <li>
           <Link 
-            to='/Home' 
+            to='/' 
             className='hover:text-gray-400 duration-300'  // Add hover effect with transition
           >
             Home
@@ -39,6 +39,7 @@ export default function Navbar() {
         </li>
        
       </ul>
+      <Outlet />
     </section>
   );
 }
