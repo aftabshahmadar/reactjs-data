@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <section id='navbar' className='mt-1 navbar bg-black p-3'>
-      <ul className='container flex-initial text-white flex space-x-40 justify-between'>
+      <ul className='container flex flex-col sm:flex-row text-white space-y-4 sm:space-y-0 sm:space-x-10 justify-between'>
         <li>
           <Link 
             to='/' 
-            className='hover:text-gray-400 duration-300'  // Add hover effect with transition
+            className='hover:text-gray-400 duration-300'
           >
             Home
           </Link>
@@ -16,7 +16,7 @@ export default function Navbar() {
         <li>
           <Link 
             to='/about' 
-            className='hover:text-gray-400 duration-300'  // Add hover effect with transition
+            className='hover:text-gray-400 duration-300'
           >
             About
           </Link>
@@ -24,22 +24,20 @@ export default function Navbar() {
         <li>
           <Link 
             to='/learn-more' 
-            className='hover:text-gray-400 duration-300'  // Add hover effect with transition
+            className='hover:text-gray-400 duration-300'
           >
             Learn More
           </Link>
         </li>
-       <li>
+        <li>
           <Link 
             to='/contact' 
-            className='hover:text-gray-400 duration-300'  // Add hover effect with transition
+            className='hover:text-gray-400 duration-300'
           >
             Contact Us
           </Link>
         </li>
-       
       </ul>
-      <Outlet />
     </section>
   );
 }
