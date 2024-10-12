@@ -1,6 +1,5 @@
-// src/App.jsx
-
 import { useState } from 'react';
+import './Style.css'; // Import the CSS file
 
 function App() {
   // Declare a state variable to keep track of the counter
@@ -12,29 +11,14 @@ function App() {
   const resetCount = () => setCount(0);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold mb-5">Simple Counter App</h1>
-      <div className="flex space-x-4">
-        <button
-          className="px-4 py-2 bg-red-500 text-white rounded"
-          onClick={decreaseCount}
-        >
-          -
-        </button>
-        <span className="text-3xl">{count}</span>
-        <button
-          className="px-4 py-2 bg-green-500 text-white rounded"
-          onClick={increaseCount}
-        >
-          +
-        </button>
+    <div>
+      <h1>Simple Counter App</h1>
+      <div className="counter-container">
+        <button onClick={decreaseCount}>-</button>
+        <span>{count}</span>
+        <button onClick={increaseCount}>+</button>
       </div>
-      <button
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
-        onClick={resetCount}
-      >
-        Reset
-      </button>
+      <button onClick={resetCount}>Reset</button>
     </div>
   );
 }

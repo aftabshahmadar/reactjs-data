@@ -1,85 +1,94 @@
-import React, { useRef } from 'react';
-import { Container, Form, Row, Button } from "react-bootstrap"; // Imported Button
-import adempimg from './assets/images/emp.gif';
-import Swal from 'sweetalert2';
+// src/EmployeeForm.jsx
+import React, { useRef, useState } from 'react';
 
-export default function AddEmployee() {
-    // Uncontrolled form handling
-    const stdname = useRef("");
-    const stdemail = useRef("");
-    const stdage = useRef("");
-    const stdclass = useRef("");
-    const stdID = useRef("");
-    const stdaddress = useRef("");
-    const sclname = useRef("");
+export default function EmployeeForm() {
+  // Create refs for the input fields
+  const nameRef = useRef(null);
+  const ageRef = useRef(null);
+  const salaryRef = useRef(null);
+  const companyRef = useRef(null);
+  const [errorMessage, setErrorMessage] = useState('');
 
-    // Form submission function
-    const Addformsubmit = (e) => {
-        e.preventDefault();
-        var insert = {
-            stdname: stdname.current.value,
-            stdemail: stdemail.current.value,
-            stdage: stdage.current.value,
-            stdclass: stdclass.current.value,
-            stdID: stdID.current.value,
-            stdaddress: stdaddress.current.value,
-            sclname: sclname.current.value,
-        };
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-        // Print the values
-        console.log(insert);
+    // Access the values directly from refs
+    const name = nameRef.current.value.trim(); // Trim to remove extra spaces
+    const age = ageRef.current.value.trim();
+    const salary = salaryRef.current.value.trim();
+    const companyName = companyRef.current.value.trim();
 
-        // Pass a sweetalert message 
-        Swal.fire({
-            title: "Good job!",
-            text: "You clicked the button!",
-            icon: "success"
-        });
-
-        // Reset the form
-        e.target.reset();
+    // Basic validation
+    if (!name || !age || !salary || !companyName) {
+      setErrorMessage('All fields are required.');
+      return;
     }
 
-    return (
-        <Container className='p-5 mt-5 shadow'>
-            <Row>
-                <div className='col-md-4'>
-                    <img src={adempimg} className='img-fluid' alt="Employee" />
-                </div>
-                <div className='col-md-8'>
-                    <Form onSubmit={Addformsubmit}>
-                        <Row>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={stdname} placeholder='Name of student *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={stdemail} placeholder='Email of student *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={stdage} placeholder='Age of student *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={stdclass} placeholder='Class of student *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={stdID} placeholder='Student ID *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={stdaddress} placeholder='Address of student *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                <input type='text' ref={sclname} placeholder='Name of the school *' className='form-control' />
-                            </div>
-                            <div className='form-group col-12 mt-3'>
-                                {/* Using Button from react-bootstrap */}
-                                <Button type='submit' className='btn btn-dark text-white btn-lg'>
-                                    Add student
-                                </Button>
-                            </div>
-                        </Row>
-                    </Form>
-                </div>
-            </Row>
-        </Container>
-    );
+    const ageNumber = parseInt(age, 10);
+    const salaryNumber = parseFloat(salary);
+
+    if (isNaN(ageNumber) || ageNumber < 0) {
+      setErrorMessage('Please enter a valid age (non-negative number)');
+      return;
+    }
+    if (isNaN(salaryNumber) || salaryNumber < 0) {
+      setErrorMessage('Please enter a valid salary (non-negative number)');
+      return;
+    }
+
+    // Clear error message on successful submission
+    setErrorMessage('');
+
+    // Log the submitted data
+    console.log('Employee added:', { name, age: ageNumber, salary: salaryNumber, companyName });
+
+    // Reset the form fields
+    nameRef.current.value = '';
+    ageRef.current.value = '';
+    salaryRef.current.value = '';
+    companyRef.current.value = '';
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2>Add Employee</h2>
+      <label>
+        Name:
+        <input
+          type="text"
+          ref={nameRef}
+          input
+        />
+      </label>
+      <label>
+        Age:
+        <input
+          type="text"
+          ref={ageRef}
+          input
+        />
+      </label>
+      <label>
+        Salary:
+        <input
+          type="text"
+          ref={salaryRef}
+          input
+        />
+      </label>
+      <label>
+        Company Name:
+        <input
+          type="text"
+          ref={companyRef}
+          input
+        />
+      </label>
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
+      <button type="submit">
+        Add Employee
+      </button>
+    </form>
+  );
 }

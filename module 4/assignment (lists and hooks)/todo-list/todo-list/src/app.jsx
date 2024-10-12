@@ -20,38 +20,41 @@ function TodoApp() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold mb-5">Simple Todo List App</h1>
+    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-100 to-blue-200">
+      <h1 className="text-3xl font-bold mb-8 text-gray-900 drop-shadow-lg">Simple Todo List App</h1>
 
-      <div className="mb-5">
+      <div className="flex items-center mb-6">
         {/* Input field to type new todo */}
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="border p-2 rounded mr-2"
+          className="border border-gray-400 p-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm"
           placeholder="Enter a new task"
         />
         {/* Button to add todo */}
-        <button onClick={addTodo} className="bg-blue-500 text-white px-4 py-2 rounded">
+        <button 
+          onClick={addTodo} 
+          className="bg-blue-600 text-white px-6 py-3 rounded-r-lg hover:bg-blue-700 transition duration-300 shadow-lg"
+        >
           Add
         </button>
       </div>
 
       {/* Render the list of todos */}
-      <ul className="bg-white p-4 rounded shadow-lg w-64">
+      <ul className="bg-white p-6 rounded-lg shadow-xl w-80">
         {todos.length === 0 ? (
-          <p className="text-gray-500">No items available</p>
+          <p className="text-gray-500 text-center">No tasks available</p>
         ) : (
           todos.map((todo, index) => (
             <li
               key={index}
-              className="border-b py-2 flex justify-between items-center"
+              className="border-b last:border-none py-3 flex justify-between items-center text-gray-700 hover:bg-gray-100 transition duration-200"
             >
               {todo}
               <button
                 onClick={() => deleteTodo(index)}
-                className="text-red-500 font-bold"
+                className="text-red-500 font-bold hover:text-red-700 transition duration-200"
               >
                 X
               </button>
