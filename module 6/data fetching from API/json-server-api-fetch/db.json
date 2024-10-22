@@ -1,0 +1,40 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "name": "Aftab shahmadar",
+            "age": 19,
+            "address": "Upleta"
+        },
+        {
+            "id": 2,
+            "name": "Mustafa shahmadar",
+            "age": 20,
+            "address": "Upleta"
+        },
+        {
+            "id": 3,
+            "name": "Alfez bhatti",
+            "age": 18,
+            "address": "Jetpur"
+        },
+        {
+            "id": 4,
+            "name": "Ayan bhatti",
+            "age": 19,
+            "address": "Jetpur"
+        },
+        {
+            "id": 5,
+            "name": "Arshad sumra",
+            "age": 18,
+            "address": "Veraval"
+        },
+        {
+            "id": 6,
+            "name": "Mahir",
+            "age": 16,
+            "address": "Jamnagar"
+        }
+    ]
+}
