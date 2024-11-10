@@ -1,52 +1,34 @@
 {
   "tasks": [
     {
-      "id": "2bb4",
-      "taskname": "eat",
-      "taskdate": "2024-10-24",
-      "asignto": "Aftab"
-    },
-    {
-      "id": "a07c",
-      "taskname": "read",
-      "taskdate": "2024-11-06",
-      "asignto": "Aftab"
-    },
-    {
-      "id": "b61f",
-      "taskname": "speak",
-      "taskdate": "2024-10-26",
-      "asignto": "Aftab"
-    },
-    {
-      "id": "7530",
+      "id": "b7e2",
       "taskname": "read books",
-      "taskdate": "2024-10-12",
-      "asignto": "Arshad"
+      "taskdate": "2024-10-05",
+      "priority": "-Select priority"
     },
     {
-      "id": "4727",
-      "taskname": "lear react",
-      "taskdate": "2024-10-15",
-      "asignto": "Alfez"
+      "id": "7067",
+      "taskname": "learn react js",
+      "taskdate": "2024-05-04",
+      "priority": "High"
     },
     {
-      "id": "67cc",
-      "taskname": "learn python",
-      "taskdate": "2024-11-09",
-      "asignto": "Ayan"
-    },
-    {
-      "id": "8cd9",
-      "taskname": "make a react app",
-      "taskdate": "2024-10-24",
-      "asignto": "Ayan"
-    },
-    {
-      "id": "0902",
+      "id": "8f2f",
       "taskname": "read",
-      "taskdate": "2024-10-17",
-      "asignto": "Mahir"
+      "taskdate": "2024-10-10",
+      "priority": "Low"
+    },
+    {
+      "id": "c0f3",
+      "taskname": "study",
+      "taskdate": "2024-10-15",
+      "priority": "High"
+    },
+    {
+      "id": "740a",
+      "taskname": "cdc",
+      "taskdate": "0045-05-05",
+      "priority": "High"
     }
   ]
 }
