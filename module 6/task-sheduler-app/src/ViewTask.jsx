@@ -7,7 +7,7 @@ export default function ViewTask() {
 
   // Use useEffect to fetch tasks when the component mounts
   useEffect(() => {
-    axios.get('http://localhost:50000/tasks') // Fetching tasks from API
+    axios.get('http://localhost:8000/tasks') // Fetching tasks from API
       .then((response) => {
         setTasks(response.data); // Set the fetched tasks to state
       })
@@ -35,6 +35,7 @@ export default function ViewTask() {
                 <td className='text-center'>{item.taskdate}</td>
                 <td className='text-center'>{item.asignto}</td>
                 <td><button className='btn btn-sm btn-danger text-white bg-danger'><span className='bi bi-trash'></span></button></td>
+                <td><button className='btn btn-sm btn-success text-white bg-success '><span className='bi bi-pencil'></span></button></td>
 
               </tr>
             ))
