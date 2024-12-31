@@ -1,255 +1,102 @@
-// import React, { useRef, useState, useEffect } from 'react';
-// import axios from 'axios';
-// import { Container } from 'react-bootstrap';
-// import Swal from 'sweetalert2';
-// import emailjs from '@emailjs/browser';
-// import { useNavigate } from 'react-router-dom';
-
-
-// const TaskInput = () => {
-
-//   const serviceId="";
-//   const templateId="";
-//   const publicId="";
-  
-//   const taskname=useRef("");
-//   const taskdate=useRef("");
-//   const asignto=useRef("");
-
-//   const navigate=useNavigate();
-
-
-//   const addtaskdata=(e)=> {
-//     e.preventDefault();
-//     emailjs.sendForm(serviceId, templateId, e.target, publicId)
-//     var insert ={
-//        taskname:taskname.current.value,
-//        taskdate:taskdate.current.value,
-//        assignto:assignto.current.value
-
-//     }
-//     axios.post(`http://localhost:8000/tasks`,insert).then(()=>{
-
-//       Swal.fire('Thanks for adding new task, our team will give caution about it soon.')
-//       navigate('/')
-//     });
-//     e.target.reset();
-//   }
-
-//   // const [tasks, setTasks] = useState([]); // State to manage task list
-//   // const [loader, setLoader] = useState(true); // Loader state
-
-//   // // Lazy loader
-//   //  useEffect(() => {
-//   //    const timer = setTimeout(() => setLoader(false), 3000);
-//   //    return () => clearTimeout(timer); // Cleanup on unmount
-//   //  }, []);
-
-//   // // Fetch tasks from API
-//   // useEffect(() => {
-//   //   axios.get(`http://localhost:8000/tasks`)
-//   //     .then((response) => setTasks(response.data))
-//   //     .catch((error) => console.error('Error fetching tasks:', error));
-//   // }, []);
-
-//   // // Refs to store input data
-//   // const taskname = useRef("");
-//   // const taskdate = useRef("");
-//   // const asignto = useRef("");
-
-//   // const addTaskHandler = (e) => {
-
-
-
-//   //   e.preventDefault();
-//   //   const data = {
-//   //     taskname: taskname.current.value,
-//   //     taskdate: date.current.value,
-//   //     asignto: asignto.current.value,
-//   //   };
-
-//   //   axios.post(`http://localhost:8000/tasks`, data)
-//   //     .then(() => {
-//   //       Swal.fire({
-//   //         title: "Success!",
-//   //         text: "Task added successfully.",
-//   //         icon: "success",
-//   //       });
-//   //       e.target.reset(); // Reset the form
-//   //       axios.get(`http://localhost:8000/tasks`).then((response) => setTasks(response.data)); // Refresh tasks
-//   //     })
-//   //     .catch((error) => console.error('Error adding task:', error));
-//   // };
-
-   
-//   //  loader ? (
-//   //   <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
-//   //   <div className="text-center" aria-busy="true" aria-live="polite">
-//   //     <div className="spinner-border" role="status">
-//   //       <span className="visually-hidden">Loading...</span>
-//   //     </div>
-//   //   </div>
-//   // </div>
-  
-//   // ) : 
-//   return (
-//     <div>
-//       <Container className="mt-5 p-5 w-50 mx-auto">
-//         <div className="p-5 border-rounded shadow">
-//           <h1 className="fs-xl fs-4">
-//             Add New Task
-//             {/* <button type="button" className="border border-0 bg-light float-end">
-//               Total Tasks: <span className="badge badge-sm bg-dark">{tasks?.length || 0}</span>
-//             </button> */}
-//           </h1>
-//           <form onSubmit={addtaskdata}>
-//             <input
-//               type="text"
-//               ref={taskname}
-//               name="name"
-//               placeholder="Task Name"
-//               className="form-control mt-2"
-//               required
-//             />
-//             <input
-//               type="date"
-//               ref={taskdate}
-//               name="date"
-//               className="form-control mt-2"
-//               required
-//             />
-//             <select ref={asignto} name="assignto" className="form-control mt-2" required>
-//               <option value="Aftab">Aftab</option>
-//               <option value="Mahir">Mahir</option>
-//               <option value="Arshad">Arshad</option>
-//               <option value="Alfez">Alfez</option>
-//               <option value="Ayan">Ayan</option>
-//               <option value="Mustafa">Mustafa</option>
-//             </select>
-//             <button className="btn btn-dark text-white d-flex align-items-center mt-3">
-//               <i className="bi bi-send-fill me-2"></i> Add Task
-//             </button>
-//           </form>
-//         </div>
-//       </Container>
-//     </div>
-//   );
-// }
-// export default TaskInput
-
-
 import React, { useRef } from "react";
 import axios from "axios";
-import { Container } from "react-bootstrap";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import { useNavigate } from "react-router-dom";
+import { Container, Form, Button } from "react-bootstrap";
 
-const TaskInput = () => {
-  // EmailJS configuration
-  const serviceId = "";
-  const templateId = "";
-  const publicId = "";
+const TaskInput = ({ refreshData }) => {
+  const serviceId = "service_jh6h1va";
+  const templateId = "template_5my2xuf";
+  const publicId = "IzpepU9PqwBZ3Fq-t";
 
-  // Form references
-  const taskname = useRef("");
-  const taskdate = useRef("");
-  const asignto = useRef("");
+  const empname = useRef(null);
+  const empnumber = useRef(null);
+  const empemail = useRef(null);
+  const empposition = useRef(null);
 
-  const navigate = useNavigate();
+  const addtaskdata = (e) => {
+    e.preventDefault();
+    const insert = {
+      empname: empname.current.value,
+      empnumber: empnumber.current.value,
+      empemail: empemail.current.value,
+      empposition: empposition.current.value,
+    };
 
-  // Function to handle task addition
-  const addTaskData = async (e) => {
-    e.preventDefault(); // Prevent page reload on form submission
-  
-    try {
-      const taskData = {
-        taskname: taskname.current.value,
-        taskdate: taskdate.current.value,
-        assignto: asignto.current.value,
-      };
-  
-      console.log("Task Data:", taskData); // Debugging log
-  
-      // Optional: EmailJS Integration
-      const emailResponse = await emailjs.sendForm(
-        serviceId,
-        templateId,
-        e.target,
-        publicId
-      );
-      console.log("Email Response:", emailResponse); // Debugging log
-  
-      // Post to API
-      const apiResponse = await axios.post(
-        "http://localhost:8000/tasks",
-        taskData
-      );
-      console.log("API Response:", apiResponse); // Debugging log
-  
-      // Success alert
-      Swal.fire({
-        title: "Task Added Successfully!",
-        text: "Your task has been added to the system.",
-        icon: "success",
+    // Send email using emailjs
+    emailjs.sendForm(serviceId, templateId, insert, publicId)
+      .then(() => {
+        console.log("email sent");
+      })
+      .catch((err) => {
+        console.error(err);
       });
-  
-      e.target.reset(); // Reset the form
-      navigate("/"); // Redirect to home
-    } catch (error) {
-      console.error("Error adding task:", error); // Debugging log
-      Swal.fire({
-        title: "Error!",
-        text: "Failed to add task. Please try again.",
-        icon: "error",
-      });
-    }
+
+    // Add new task via Axios
+    axios.post(`http://localhost:8000/tasks`, insert).then(() => {
+      Swal.fire("Thanks for adding your details, our team will give caution about it soon.");
+      // Refresh the task list in the parent component
+      refreshData();
+    }).catch((err) => {
+      console.error("Error adding task:", err);
+    });
+
+    e.target.reset();
   };
-  
 
   return (
-    <div>
-      <Container className="mt-5 p-5 w-50 mx-auto">
-        <div className="p-5 border-rounded shadow">
-          <h1 className="fs-xl fs-4">Add New Task</h1>
-          <form onSubmit={addTaskData}>
-            <input
+    <Container className="mt-5 p-5 w-50 mx-auto">
+      <div className="p-4 border rounded shadow">
+        <h1 className="text-center mb-4">Add Employee data </h1>
+        <Form onSubmit={addtaskdata}>
+          <Form.Group className="mb-3">
+            <Form.Label>Employee Name</Form.Label>
+            <Form.Control
               type="text"
-              ref={taskname}
-              name="taskname"
-              placeholder="Task Name"
-              className="form-control mt-2"
+              ref={empname}
+              placeholder="Enter employee name"
               required
             />
-            <input
-              type="date"
-              ref={taskdate}
-              name="taskdate"
-              className="form-control mt-2"
+          </Form.Group>
+
+          <Form.Group className="mb-3">
+            <Form.Label>Employee Number</Form.Label>
+            <Form.Control
+              type="text"
+              ref={empnumber}
+              placeholder="Enter employee number"
               required
             />
-            <select
-              ref={asignto}
-              name="assignto"
-              className="form-control mt-2"
+          </Form.Group>
+
+          <Form.Group className="mb-3">
+            <Form.Label>Employee Email</Form.Label>
+            <Form.Control
+              type="email"
+              ref={empemail}
+              placeholder="Enter employee email"
               required
-            >
-              <option value="Aftab">Aftab</option>
-              <option value="Mahir">Mahir</option>
-              <option value="Arshad">Arshad</option>
-              <option value="Alfez">Alfez</option>
-              <option value="Ayan">Ayan</option>
-              <option value="Mustafa">Mustafa</option>
-            </select>
-            <button
-              className="btn btn-dark text-white d-flex align-items-center mt-3"
-            >
-              <i className="bi bi-send-fill me-2"></i> Add Task
-            </button>
-          </form>
-        </div>
-      </Container>
-    </div>
+            />
+          </Form.Group>
+
+          <Form.Group className="mb-3">
+            <Form.Label>Employee Position</Form.Label>
+            <Form.Select ref={empposition} required>
+              <option value="React dev.">React dev.</option>
+              <option value="PHP dev.">PHP dev.</option>
+              <option value="MERN stack dev.">MERN stack dev.</option>
+              <option value="Frontend dev.">Frontend dev.</option>
+              <option value="Backend dev.">Backend dev.</option>
+              <option value="Fullstack dev.">Fullstack dev.</option>
+            </Form.Select>
+          </Form.Group>
+
+          <Button variant="dark" type="submit" className="w-100 mt-3">
+            Add Employee
+          </Button>
+        </Form>
+      </div>
+    </Container>
   );
 };
 

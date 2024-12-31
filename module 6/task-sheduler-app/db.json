@@ -1,88 +1,39 @@
 {
   "tasks": [
     {
-      "id": "2bb4",
-      "taskname": "eat",
-      "taskdate": "2024-10-24",
-      "asignto": "Aftab"
+      "id": "9ea0",
+      "empname": "aftab",
+      "empnumber": "6354870886",
+      "empemail": "aftabshahmadar924@gmail.com",
+      "empposition": "React dev."
     },
     {
-      "id": "a07c",
-      "taskname": "read",
-      "taskdate": "2024-11-06",
-      "asignto": "Aftab"
+      "id": "3e96",
+      "empname": "ayan bhatti",
+      "empnumber": "5469287369",
+      "empemail": "ayanbhatti5522@gmail.com",
+      "empposition": "PHP dev."
     },
     {
-      "id": "b61f",
-      "taskname": "speak",
-      "taskdate": "2024-10-26",
-      "asignto": "Aftab"
+      "id": "adca",
+      "empname": "jummashah",
+      "empnumber": "8733949696",
+      "empemail": "jummashahshahmadar1212@gmil.com",
+      "empposition": "Fullstack dev."
     },
     {
-      "id": "7530",
-      "taskname": "read books",
-      "taskdate": "2024-10-12",
-      "asignto": "Arshad"
+      "id": "3f61",
+      "empname": "sujal",
+      "empnumber": "569428725",
+      "empemail": "sujalagvan47@gmail.com",
+      "empposition": "MERN stack dev."
     },
     {
-      "id": "4727",
-      "taskname": "lear react",
-      "taskdate": "2024-10-15",
-      "asignto": "Alfez"
-    },
-    {
-      "id": "67cc",
-      "taskname": "learn python",
-      "taskdate": "2024-11-09",
-      "asignto": "Ayan"
-    },
-    {
-      "id": "8cd9",
-      "taskname": "make a react app",
-      "taskdate": "2024-10-24",
-      "asignto": "Ayan"
-    },
-    {
-      "id": "0902",
-      "taskname": "read",
-      "taskdate": "2024-10-17",
-      "asignto": "Mahir"
-    },
-    {
-      "id": "8ffc",
-      "taskname": "programming",
-      "taskdate": "2024-10-11",
-      "asignto": "Alfez"
-    },
-    {
-      "id": "4559",
-      "taskname": "read",
-      "taskdate": "2024-11-09",
-      "asignto": "Aftab"
-    },
-    {
-      "id": "2b3c",
-      "taskname": "read",
-      "taskdate": "2024-11-16",
-      "asignto": "Alfez"
-    },
-    {
-      "id": "30f3",
-      "taskname": "programming",
-      "taskdate": "2024-11-22",
-      "asignto": "Arshad"
-    },
-    {
-      "id": "132c",
-      "taskname": "walk",
-      "taskdate": "2024-11-22",
-      "asignto": "Aftab"
-    },
-    {
-      "id": "4c71",
-      "taskname": "readsing",
-      "taskdate": "2024-11-08",
-      "asignto": "Arshad"
+      "id": "ccac",
+      "empname": "mustafa",
+      "empnumber": "5269872648",
+      "empemail": "mustafasoharvadi@gmail.com",
+      "empposition": "MERN stack dev."
     }
   ]
 }

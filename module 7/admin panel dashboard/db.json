@@ -1,0 +1,47 @@
+{
+    "contact-us": [
+        {
+            
+        }
+    ],
+    "feedback-us": [
+      {
+        "id": "5a11"
+      }
+    ],
+    "customers": [
+      {
+        "id": "002f"
+      }
+    ],
+    "cart": [
+      {
+        "id": "e330"
+      }
+    ],
+    "checkout": [
+      {
+        "id": "0d99"
+      }
+    ],
+    "addcategory": [
+      {
+        "id": "5b62"
+      }
+    ],
+    "addsubcategory": [
+      {
+        "id": "3e89"
+      }
+    ],
+    "addproducts": [
+      {
+        "id": "0c29"
+      }
+    ],
+    "manage-orders": [
+      {
+        "id": "d249"
+      }
+    ]
+  }

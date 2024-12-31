@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "user1@gmail.com",
+        "tasks": [
+          { 
+            "id": 1, 
+            "title": "React JS", 
+            "assignee": "Brijesh", 
+            "addedDate": "20-12-2024" 
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "email": "user2@gmail.com",
+        "tasks": [
+          { 
+            "id": 1, 
+            "title": "Node.js Setup", 
+            "assignee": "John", 
+            "addedDate": "22-12-2024" 
+          }
+        ]
+      }
+    ]
+  }
+  

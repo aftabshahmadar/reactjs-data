@@ -8,11 +8,11 @@ export default function Navbar() {
       <Container>
         <h1 className="navbar-brand mb-0 h1">
           <i className='bi bi-list'></i>
-          <span className='ms-2'>Task Manager</span>
+          <span className='ms-2'>Empss..</span>
         </h1>
         <div className="ml-auto">
           <Link to="/view-task">
-            <button className="btn btn-dark">View Task</button>
+            <button className="btn btn-dark">View Employees</button>
           </Link>
         </div>
       </Container>
