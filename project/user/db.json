@@ -1,0 +1,98 @@
+{
+  "contact-us": [
+    {
+      "id": "fd60",
+      "name": "alfez",
+      "email": "alfezbhatti1122@gmail.com",
+      "number": "5269815762",
+      "message": "hii"
+    },
+    {
+      "id": "93f7",
+      "name": "mustafa soharvadi",
+      "email": "mustafasoharvad@gmail.com",
+      "number": "79009709709",
+      "message": "hiiiii\n"
+    },
+    {
+      "id": "f432",
+      "name": "mo. arshad sumra",
+      "email": "arshadsumra@gmail.com",
+      "number": "5296482167",
+      "message": "helllo"
+    },
+    {
+      "id": "9d6c",
+      "name": "muska shahmadar",
+      "email": "muskanshahmadar@gmail.com",
+      "number": "6356927255",
+      "message": "hjghjg"
+    },
+    {
+      "id": "2c37",
+      "name": "ayan shah",
+      "email": "ayanshahmadar@gmail.com",
+      "number": "2564983257",
+      "message": "hiiiiii"
+    },
+    {
+      "id": "6ab0",
+      "name": "Aftab shahmadar",
+      "email": "Aftabshahmadar924@gmail.com",
+      "number": "06354870886",
+      "message": "hiii"
+    },
+    {
+      "id": "e7c5",
+      "name": "heloo",
+      "email": "Aftabshahmadar924@gmail.com",
+      "number": "063548708861245636569",
+      "message": "scsdfcdsf\n"
+    }
+  ],
+  "feedback-us": [
+    {
+      "id": "5a11"
+    }
+  ],
+  "customers": [
+    {
+      "id": "002f"
+    }
+  ],
+  "cart": [
+    {
+      "id": "db2f",
+      "productName": "Zigzag bookshelve",
+      "productURL": "https://th.bing.com/th/id/R.b7a9ee86b6b58a40b9aac53f30c56269?rik=GLAb8TtB20V3yg&riu=http%3a%2f%2fbookglow.net%2fwp-content%2fuploads%2f2015%2f12%2f7-2.jpg&ehk=rio5UUQ95EqCu2YQqm2yqb%2fUeiY1xEY9f6kCQSea01w%3d&risl=&pid=ImgRaw&r=0",
+      "quantity": 1,
+      "subtotal": 499
+    },
+    {
+      "id": "9900",
+      "productName": "Modern LED floor lamp",
+      "productURL": "https://m.media-amazon.com/images/I/51gYITGLknL.jpg",
+      "quantity": 1,
+      "subtotal": 3700
+    },
+    {
+      "id": "a2a8",
+      "productName": "indoor plant",
+      "productURL": "https://fedandfit.com/wp-content/uploads/2020/06/houseplants-scaled-e1593515074870.jpeg",
+      "quantity": 1,
+      "subtotal": 399
+    }
+  ],
+  "checkout": [
+    {
+      "id": "0d99"
+    }
+  ],
+  "addcategory": [],
+  "addproducts": [],
+  "manage-orders": [
+    {
+      "id": "d249"
+    }
+  ]
+}

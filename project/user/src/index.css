@@ -1,0 +1,52 @@
+body {
+  background-image: url('./assets/images/bg4.png'); /* Path to the image in the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  height: 100vh; /* Ensures the background covers the entire viewport height */
+  overflow-x: hidden;  /* Prevent horizontal scrolling */
+  margin: 0;           /* Remove default margin */
+  padding: 0;          /* Remove default padding */
+  width: 100%;        
+}
+* {
+  box-sizing: border-box;
+}
+.paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;  /* Thin weight */
+  font-size: 1.5rem;  /* Larger font size */
+  line-height: 1.8;  /* Adjust line height for better readability */
+}
+.custom-margin-top {
+  margin-top: 200px; /* Adjust as needed */
+}
+.fadeIn {
+  animation: fadeInAnimation 1s ease-out;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Custom neon effect for the icons */
+.neon-icon {
+  transition: filter 0.3s ease-in-out;
+}
+
+.neon-icon:hover {
+  filter: drop-shadow(0 0 5px #0DCAF0) drop-shadow(0 0 10px #0DCAF0) drop-shadow(0 0 20px #0DCAF0);
+}
+
+
+
+
+
+
+
+

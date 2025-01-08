@@ -1,0 +1,1318 @@
+{
+  "customers": [
+    {
+      "id": "002f"
+    }
+  ],
+  "cart": [
+    {
+      "id": "e330"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "0d99"
+    }
+  ],
+  "addcategory": [
+    {
+      "id": "ba5b",
+      "name": "electronics",
+      "description": "electronics",
+      "date": "2024-12-27"
+    },
+    {
+      "id": "9c64",
+      "name": "home appliance",
+      "description": "good for home",
+      "date": "2024-12-28"
+    },
+    {
+      "id": "717e",
+      "name": "furnitures",
+      "description": "good to give a nice house look",
+      "date": "2024-12-07"
+    },
+    {
+      "id": "a35b",
+      "name": "clothing",
+      "description": "good",
+      "date": "2025-01-03"
+    },
+    {
+      "id": "9529",
+      "name": "home decoration ",
+      "description": "good for home",
+      "date": "2025-01-06"
+    },
+    {
+      "id": "ed23",
+      "name": "Toys",
+      "description": "Good for the kids ",
+      "date": "2024-12-27"
+    },
+    {
+      "id": "1905",
+      "name": "Tools",
+      "description": "tools",
+      "date": "2024-12-11"
+    }
+  ],
+  "addSubcategory": [
+    {
+      "id": "ad03",
+      "category": "furnitures",
+      "name": "tables",
+      "description": "good",
+      "date": "2024-12-13"
+    },
+    {
+      "id": "4f69",
+      "category": "electronics",
+      "name": "mobile",
+      "description": "good qualities",
+      "date": "2025-01-04"
+    },
+    {
+      "id": "f43f",
+      "category": "clothing",
+      "name": "black trousers",
+      "description": "strechable and comfortable",
+      "date": "2024-12-31"
+    },
+    {
+      "id": "33c2",
+      "category": "home decoration ",
+      "name": "night lamps ",
+      "description": "very beautifull and calming for house ",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "dbe0",
+      "category": "home appliance",
+      "name": "wahsing machine",
+      "description": "vey easy to use and less noisy ",
+      "date": "2024-12-05"
+    },
+    {
+      "id": "9641",
+      "category": "decoration",
+      "name": "lights ",
+      "description": "lights",
+      "date": "2024-12-20"
+    },
+    {
+      "id": "f93a",
+      "category": "Toys",
+      "name": "Remote control car",
+      "description": "controled via remote",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "f394",
+      "category": "Toys",
+      "name": "Remote control truck",
+      "description": "Controled via remote",
+      "date": "2024-12-11"
+    },
+    {
+      "id": "23bd",
+      "category": "Toys",
+      "name": "Manual car",
+      "description": "Controlled manually",
+      "date": "2024-12-27"
+    },
+    {
+      "id": "2a1d",
+      "category": "Toys",
+      "name": "manual truck",
+      "description": "Controlled manually",
+      "date": "2024-12-10"
+    },
+    {
+      "id": "cde9",
+      "category": "Toys",
+      "name": "Manual car",
+      "description": "good",
+      "date": "2024-12-03"
+    },
+    {
+      "id": "1dd6",
+      "category": "electronics",
+      "name": "Laptops",
+      "description": "good",
+      "date": "2024-12-26"
+    },
+    {
+      "id": "7f7b",
+      "category": "electronics",
+      "name": "earphones",
+      "description": "earphones",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "a14a",
+      "category": "electronics",
+      "name": "earbuds",
+      "description": "earbuds",
+      "date": "2024-12-12"
+    },
+    {
+      "id": "9500",
+      "category": "electronics",
+      "name": "bluetooth speaker",
+      "description": "bluetooth speaker",
+      "date": "2024-12-12"
+    },
+    {
+      "id": "0fc2",
+      "category": "electronics",
+      "name": "smartwatch",
+      "description": "smartwatch",
+      "date": "2024-12-23"
+    },
+    {
+      "id": "788f",
+      "category": "electronics",
+      "name": "headphones",
+      "description": "headphones",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "1113",
+      "category": "electronics",
+      "name": "cameras",
+      "description": "cameras",
+      "date": "2024-12-11"
+    },
+    {
+      "id": "314e",
+      "category": "home appliance",
+      "name": "LED tv",
+      "description": "LED tv",
+      "date": "2024-12-02"
+    },
+    {
+      "id": "b933",
+      "category": "home appliance",
+      "name": "Air conditioner",
+      "description": "air conditioner",
+      "date": "2024-12-08"
+    },
+    {
+      "id": "0fa7",
+      "category": "home appliance",
+      "name": "home heater",
+      "description": "home heater",
+      "date": "2024-12-25"
+    },
+    {
+      "id": "9447",
+      "category": "home appliance",
+      "name": "Refrigerator",
+      "description": "refrigerator",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "3c98",
+      "category": "home appliance",
+      "name": "water purifier",
+      "description": "water purifier",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "ea7d",
+      "category": "home appliance",
+      "name": "sewing machine",
+      "description": "sewing machine",
+      "date": "2024-12-02"
+    },
+    {
+      "id": "4b43",
+      "category": "furnitures",
+      "name": "Chairs",
+      "description": "chairs",
+      "date": "2024-12-11"
+    },
+    {
+      "id": "c735",
+      "category": "furnitures",
+      "name": "Beds",
+      "description": "beds",
+      "date": "2024-12-16"
+    },
+    {
+      "id": "5a8a",
+      "category": "furnitures",
+      "name": "TV stand",
+      "description": "tv stand",
+      "date": "2024-12-20"
+    },
+    {
+      "id": "d93f",
+      "category": "furnitures",
+      "name": "Bookshelves",
+      "description": "bookshelves",
+      "date": "2024-12-02"
+    },
+    {
+      "id": "8d7b",
+      "category": "furnitures",
+      "name": "dressers ",
+      "description": "dressers",
+      "date": "2024-12-13"
+    },
+    {
+      "id": "ff9f",
+      "category": "furnitures",
+      "name": "Office desk",
+      "description": "office desk",
+      "date": "2024-12-09"
+    },
+    {
+      "id": "3363",
+      "category": "furnitures",
+      "name": "Study table",
+      "description": "study table",
+      "date": "2024-12-14"
+    },
+    {
+      "id": "3a19",
+      "category": "furnitures",
+      "name": "shoe racks",
+      "description": "shoe racks",
+      "date": "2024-12-16"
+    },
+    {
+      "id": "86d1",
+      "category": "furnitures",
+      "name": "Sofas",
+      "description": "sofas",
+      "date": "2024-12-11"
+    },
+    {
+      "id": "9c82",
+      "category": "furnitures",
+      "name": "home ladder",
+      "description": "home ladder",
+      "date": "2024-12-03"
+    },
+    {
+      "id": "9724",
+      "category": "clothing",
+      "name": "Tops",
+      "description": "tops",
+      "date": "2024-12-21"
+    },
+    {
+      "id": "c28b",
+      "category": "clothing",
+      "name": "Bottoms",
+      "description": "bottoms",
+      "date": "2024-12-25"
+    },
+    {
+      "id": "598c",
+      "category": "clothing",
+      "name": "Dresses",
+      "description": "dresses",
+      "date": "2024-12-20"
+    },
+    {
+      "id": "d458",
+      "category": "clothing",
+      "name": "Outerwear",
+      "description": "outerwear",
+      "date": "2024-12-25"
+    },
+    {
+      "id": "9ba7",
+      "category": "clothing",
+      "name": "Accessories",
+      "description": "accessories",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "7ffe",
+      "category": "clothing",
+      "name": "Footwear",
+      "description": "footwear",
+      "date": "2024-12-28"
+    },
+    {
+      "id": "6a1f",
+      "category": "clothing",
+      "name": "Activewears",
+      "description": "activewears",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "c485",
+      "category": "clothing",
+      "name": "loungewears",
+      "description": "loungewears",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "a0e9",
+      "category": "home decoration ",
+      "name": "Wall arts and prints",
+      "description": "wall arts and prints",
+      "date": "2025-01-10"
+    },
+    {
+      "id": "8610",
+      "category": "home decoration ",
+      "name": "lightenings",
+      "description": "lightenings",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "4ef3",
+      "category": "home decoration ",
+      "name": "textiles",
+      "description": "textiles",
+      "date": "2024-12-13"
+    },
+    {
+      "id": "709d",
+      "category": "home decoration ",
+      "name": "Indoor plants",
+      "description": "indoor plants",
+      "date": "2024-12-23"
+    },
+    {
+      "id": "bd28",
+      "category": "home decoration ",
+      "name": "personalized items",
+      "description": "personalized items",
+      "date": "2024-12-20"
+    },
+    {
+      "id": "6145",
+      "category": "Toys",
+      "name": "Dolls and Figures",
+      "description": "dolls and figures",
+      "date": "2024-12-26"
+    },
+    {
+      "id": "9c01",
+      "category": "Toys",
+      "name": "Building toys",
+      "description": "building toys",
+      "date": "2025-01-03"
+    },
+    {
+      "id": "2bff",
+      "category": "Toys",
+      "name": "Puzzels",
+      "description": "puzzels",
+      "date": "2024-12-11"
+    },
+    {
+      "id": "1707",
+      "category": "Toys",
+      "name": "Electronic toys",
+      "description": "electronic toys",
+      "date": "2024-12-25"
+    },
+    {
+      "id": "1182",
+      "category": "Toys",
+      "name": "Outdoor and sports",
+      "description": "outdoor and sports",
+      "date": "2024-12-16"
+    },
+    {
+      "id": "f53e",
+      "category": "Toys",
+      "name": "Board and cards",
+      "description": "board and cards",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "85ed",
+      "category": "Toys",
+      "name": "Role playing sets and kits",
+      "description": "sets and kits",
+      "date": "2024-12-03"
+    },
+    {
+      "id": "e622",
+      "category": "Tools",
+      "name": "Hand tools",
+      "description": "hand tools",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "ee73",
+      "category": "Tools",
+      "name": "Power tools",
+      "description": "power tools",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "69b5",
+      "category": "Tools",
+      "name": "Garden tools",
+      "description": "garden tools",
+      "date": "2024-12-18"
+    },
+    {
+      "id": "99f0",
+      "category": "Tools",
+      "name": "Vehicle tools",
+      "description": "vehicle tools",
+      "date": "2024-12-16"
+    },
+    {
+      "id": "2c69",
+      "category": "Tools",
+      "name": "Measuring tools",
+      "description": "measuring tools",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "b7dc",
+      "category": "Tools",
+      "name": "Electrical tools",
+      "description": "electrical tools",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "6d68",
+      "category": "Tools",
+      "name": "Construction tools",
+      "description": "construction tools",
+      "date": "2024-12-18"
+    },
+    {
+      "id": "b26e",
+      "category": "Tools",
+      "name": "Safety tools",
+      "description": "safety tools",
+      "date": "2024-12-17"
+    }
+  ],
+  "addproducts": [
+    {
+      "id": "59ad",
+      "category": "",
+      "subcategory": "",
+      "productName": "oppo A57",
+      "productDescription": "come with 4GB ram and 64GB rom.",
+      "productURL": "https://th.bing.com/th/id/OIP.a9i2U-Wpy-_Z1nnPO8xFiAHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-11",
+      "oldPrice": "14,500",
+      "newPrice": "12,000"
+    },
+    {
+      "id": "437a",
+      "category": "Toys",
+      "subcategory": "Remote control car",
+      "productName": "Offroader car ",
+      "productDescription": "Easily controlled car with extreme offroading power.",
+      "productURL": "https://i.pinimg.com/originals/e3/93/a8/e393a8d3b3563d01aa01cb879f8386d2.jpg",
+      "productDate": "2024-12-19",
+      "oldPrice": "3000",
+      "newPrice": "2500"
+    },
+    {
+      "id": "ad51",
+      "category": "electronics",
+      "subcategory": "Laptops",
+      "productName": "Dell inspiron 15 3000",
+      "productDescription": "Black nd silver in color\nWebcam HD \n3-sided narrow borders \nspill-Resistant keyboard \nHDMI port ",
+      "productURL": "https://th.bing.com/th/id/R.c81a198116fbbe15cf86ff2a2d8f092c?rik=Fz9fBkK%2fT6jpZA&riu=http%3a%2f%2fi.mlcdn.com.br%2f1500x1500%2fnotebook-dell-inspiron-15-serie-3000-intel-core-i54gb-1tb-windows-10-led-15-6-34-hdmi-bluetooth-135229300.jpg&ehk=2MduqlDdfe4N0oeZ0GGq%2f29BaZyLAaNzQHqShLXqhpI%3d&risl=&pid=ImgRaw&r=0",
+      "productDate": "2024-12-17",
+      "oldPrice": "54,000",
+      "newPrice": "49,499"
+    },
+    {
+      "id": "8e5a",
+      "category": "home appliance",
+      "subcategory": "",
+      "productName": "Samsung washing machine series 6",
+      "productDescription": "Say hello to a faster, superior clean right at your fingertips with this outstanding WW90T684DLN series 6 washing machine from Samsung. Boasting an impressive 9kg washing capacity and a maximum spin speed of 1400rpm, this model is perfect for larger families with a busy lifestyle. Choose from a range of wash programmes designed to suit any situation. Ecobubble technology blends air, water and detergent to form bubbles which cleanse your clothes at cool temperatures. AutoDose ensures that the right amount of detergent is used in every wash with the dispenser holding enough liquid for 16 loads. No more wasted detergent or stained clothes due to underfilling. With WiFi connectivity and compatiblity with Samsung’s SmartThings app, you can personalise your washing experience from your phone. The Digital Inverter Motor delivers excellent energy efficiency with minimal noise. Elevate your laundry routine with this fantastic Samsung Washing Machine.",
+      "productURL": "https://mlvtgiqzoszz.i.optimole.com/Sb3K8mU-B-mYAy3A/w:auto/h:auto/q:90/https://www.appliancecity.co.uk/wp-content/uploads/2020/09/LG-f4v910btse-7-1.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "20,000",
+      "newPrice": "16,999"
+    },
+    {
+      "id": "57bb",
+      "category": "furnitures",
+      "subcategory": "tables",
+      "productName": "black wood table",
+      "productDescription": "This beautiful carved round dining table is so chic and will make a great addition to any kitchen or dining area.  Comfortably seating four, it has just the right amount of detail to add texture and interest with an Eastern influence to the design.  It features a striking carved fretwork surround to the table top and is finished in a stylish matt charcoal black.  Made from mango wood incorporating complimentary wood veneers to give a subtle contrast and allow the different grains to stand out in the light, this is an unusual yet timeless table that will look great mixed with modern or classic chairs for an eclectic dining space.",
+      "productURL": "https://www.primroseandplum.co.uk/wp-content/uploads/2018/04/BOHO-Boutique-Round-Dining-Table-with-EDINGTON-Chairs-in-Grey-1100.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "12,000",
+      "newPrice": "9500"
+    },
+    {
+      "id": "4b9b",
+      "category": "home decoration ",
+      "subcategory": "night lamps ",
+      "productName": "Crystal table lamp",
+      "productDescription": "Elevate your home décor with our exquisite Crystal Table Lamp. Crafted from premium-quality crystal, this lamp combines timeless elegance with modern functionality. Its stunning design reflects light beautifully, creating a warm and inviting ambiance in any room. Perfect for your living room, bedroom, or office, this lamp is more than just lighting—it's a statement piece. Add a touch of luxury and sophistication to your space today.",
+      "productURL": "https://th.bing.com/th/id/OIP.CdVzNsk2NYR4VuGo1H6WmQHaHa?w=1200&h=1200&rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-24",
+      "oldPrice": "6000",
+      "newPrice": "5000"
+    },
+    {
+      "id": "5256",
+      "category": "electronics",
+      "subcategory": "earphones",
+      "productName": "Verbatime stereo earphones",
+      "productDescription": "n-line microphone allows users to answer and take calls on a cellphone with ease\nExceptional sound without the hassle\nSimple, easy to use format\nIdeal for on-the-go-use in a variety of applications",
+      "productURL": "https://i5.walmartimages.com/asr/55d5feeb-adbe-435f-a117-6c47706bdabc_1.a4924f5d3aedeeba83ffbf9bb352d696.jpeg",
+      "productDate": "2024-12-25",
+      "oldPrice": "599",
+      "newPrice": "350"
+    },
+    {
+      "id": "d060",
+      "category": "electronics",
+      "subcategory": "earbuds",
+      "productName": "Bluetooth 5.0 wireless earbuds",
+      "productDescription": "Donerton Bluetooth Headphones Wireless Earbuds",
+      "productURL": "https://images-na.ssl-images-amazon.com/images/I/71Biol0fTjL.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "1200",
+      "newPrice": "900"
+    },
+    {
+      "id": "e055",
+      "category": "electronics",
+      "subcategory": "bluetooth speaker",
+      "productName": "Ortizon portable bluetooth speaker",
+      "productDescription": "40W Powerful Sound\n3 Professional EQ Modes\nBeat-synced Lights\nIPX7 Waterproof Design\nLong-Lasting 30-Hour Playtime\n80W Double Stereo Boost\nSuperior Bluetooth 5.3 Technology",
+      "productURL": "https://th.bing.com/th/id/OIP.Ep77V4dqP3e1XsrznjJdogHaGo?w=913&h=817&rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-04",
+      "oldPrice": "2000",
+      "newPrice": "1599"
+    },
+    {
+      "id": "5976",
+      "category": "electronics",
+      "subcategory": "headphones",
+      "productName": "Senhiesser 359BT headphones",
+      "productDescription": "Enjoy your audio almost anywhere and customize it to your specific tastes with the HD 350BT Wireless Over-Ear Headphones from Sennheiser. Whether at home or on the go, Bluetooth 5.0 technology allows you to enjoy audio without cumbersome wires getting in the way",
+      "productURL": "https://th.bing.com/th/id/OIP.Dn1iGbKPTV0egiQPusxeNwHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-11",
+      "oldPrice": "3000",
+      "newPrice": "1400"
+    },
+    {
+      "id": "af8a",
+      "category": "electronics",
+      "subcategory": "cameras",
+      "productName": "Panasonic lumix FZ300 ",
+      "productDescription": "4K video & 4K photo: Panasonic’s exclusive 4K photo technology uses 30 frames per second in high resolution 4K ultra HD video to extract them as photos; You’ll never miss that moment again",
+      "productURL": "https://1.bp.blogspot.com/-Tbk7BZFL-bE/XuW7YhZOe6I/AAAAAAAAAGs/2_5zcHBqVlg3cz5pfXUjt2RE0MYlMKDCwCK4BGAsYHg/s1486/1.jpg",
+      "productDate": "2024-12-17",
+      "oldPrice": "61,000",
+      "newPrice": "59,000"
+    },
+    {
+      "id": "afb1",
+      "category": "home appliance",
+      "subcategory": "LED tv",
+      "productName": "Samsun Q80R LED tv",
+      "productDescription": "Samsung Corporate+ is a program designed to offer employee discounts and perks on the latest products from Samsung. The many benefits include no-cost EMIs, special deals, instant cashbacks, and more. There are days to elevate your entertainment space once in a while to unwind after a heavy work day or if that lies as one of your work to-do’s.\n",
+      "productURL": "https://th.bing.com/th/id/OIP.2X5vNcwd5VdDk-PFXTLpXgAAAA?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-11",
+      "oldPrice": "40,000",
+      "newPrice": "31.000"
+    },
+    {
+      "id": "0751",
+      "category": "home appliance",
+      "subcategory": "Air conditioner",
+      "productName": "Portable air conditioner",
+      "productDescription": "Nothing is as insufferable than the heat in the dog days of summer. If you find yourself in a situation where window-mounted air conditioning is not a viable option, or natural air circulation simply isn’t enough to keep you cool, you can find a very efficient and affordable solution with portable air conditioners or fans.",
+      "productURL": "https://th.bing.com/th/id/OIP.IAZ4uP10a7ZhDCXeThvOYQAAAA?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-17",
+      "oldPrice": "31,000",
+      "newPrice": "29,000"
+    },
+    {
+      "id": "532f",
+      "category": "home appliance",
+      "subcategory": "home heater",
+      "productName": "LIFESMART large room heater",
+      "productDescription": "Provides Infrared Warmth to a Large Room\n3 Heat Settings Including 500 Watt Eco Setting\n12 Hour Start and Stop Timer\nStylish Metal Cabinet\nDigital Thermostat with Remote\nQuiet Scroll Fan Circulates Heat\nLifetime Air Filter\n",
+      "productURL": "https://images-na.ssl-images-amazon.com/images/I/81ew6VYAUXL._SL1500_.jpg",
+      "productDate": "2024-12-17",
+      "oldPrice": "8000",
+      "newPrice": "4999"
+    },
+    {
+      "id": "d591",
+      "category": "home appliance",
+      "subcategory": "Refrigerator",
+      "productName": "Whirpool WRTW77REYB refrigerator",
+      "productDescription": "Keep your food fresh with the Whirlpool fridge, designed for efficiency and style. Featuring spacious compartments, adjustable shelves, and advanced cooling technology, it ensures even temperature distribution. With a sleek, modern design, frost-free operation, and energy-saving features, this fridge is a perfect fit for any home. Enjoy convenience and reliability every day.",
+      "productURL": "https://th.bing.com/th/id/R.f9bfed41720298a4bfd11031a46ada9d?rik=CHv%2bO%2foXBjRWvQ&riu=http%3a%2f%2fc.shld.net%2frpx%2fi%2fs%2fi%2fspin%2fimage%2fspin_prod_606428601%3f%3fhei%3d64%26wid%3d64%26qlt%3d50&ehk=4D3AyQxKsC4dB97kp1sINwrN991FTIyKNbFAKMXzJh8%3d&risl=&pid=ImgRaw&r=0",
+      "productDate": "2024-12-15",
+      "oldPrice": "25,000",
+      "newPrice": "22,000"
+    },
+    {
+      "id": "ad57",
+      "category": "home appliance",
+      "subcategory": "water purifier",
+      "productName": "Blue star stella series 8 water purifier",
+      "productDescription": "1 year Domestic Warranty, Consumables and Plastics not covered warranty however RO Membrane gets clogged within the first year and/or if the filters get clogged within the first six months, they shall be cleaned/repaired/replaced at no extra charge",
+      "productURL": "https://rukminim1.flixcart.com/image/832/832/k6i7zww0/water-purifier/y/t/x/blue-star-stella-series-original-imafzy645rebncfh.jpeg?q=70",
+      "productDate": "2024-12-17",
+      "oldPrice": "45,000",
+      "newPrice": "32,000"
+    },
+    {
+      "id": "96c0",
+      "category": "home appliance",
+      "subcategory": "sewing machine",
+      "productName": "Vintage portable sewing machine",
+      "productDescription": "Rare VTG Primitive 1923 Light Running New Home Sewing Machine Vibrating Shuttle | Antiques, Sewing (Pre-1930), Sewing Machines ",
+      "productURL": "https://i.pinimg.com/originals/8f/8b/89/8f8b89023c606fa5f786abde7c93367d.jpg",
+      "productDate": "2024-12-08",
+      "oldPrice": "12,000",
+      "newPrice": "10,000"
+    },
+    {
+      "id": "d59a",
+      "category": "furnitures",
+      "subcategory": "Chairs",
+      "productName": "Dining wooden chairs",
+      "productDescription": "Includes: Two (2) dining chairs\nPanel detail on chair back\nContoured seat for added comfort\nFinish: Oak\nChair materials: rubberwood\nUnder chair clearance: 12 inches\nSeat dimensions: 18.5 inches wide x 15.7 inches deep x 17.1 inches high\nDimensions (overall): 19.9 inches wide x 23 inches deep x 39.2 inches",
+      "productURL": "https://i5.walmartimages.com/asr/c6dfe66a-e7cf-4617-9c06-bd7e05408358_1.539e853124248d14b8ff8cfc1f8f5a40.jpeg",
+      "productDate": "2024-12-13",
+      "oldPrice": "2000",
+      "newPrice": "1200"
+    },
+    {
+      "id": "86b9",
+      "category": "furnitures",
+      "subcategory": "Beds",
+      "productName": "Adolf sheesham wood master bed",
+      "productDescription": "Crafted from premium Sheesham wood, this big bed offers a perfect blend of durability and elegance. Its robust design ensures long-lasting use, while the natural wood grain adds a touch of sophistication to any bedroom. Spacious and stylish, it’s an ideal centerpiece for your restful retreats.",
+      "productURL": "https://images.woodenstreet.de/image/data/bed-with-storage/adolph-bed-with-side-storage/revised/revised/honey/updated/honey/1.jpg",
+      "productDate": "2024-12-18",
+      "oldPrice": "35,000",
+      "newPrice": "31,000"
+    },
+    {
+      "id": "f6c3",
+      "category": "furnitures",
+      "subcategory": "TV stand",
+      "productName": "Wooden TV stand",
+      "productDescription": "Enhance your living space with this beautifully crafted wooden TV stand. Designed for both style and functionality, it offers ample storage for your media devices and accessories. The natural wood finish and sturdy construction bring a warm, timeless charm to your home.\n\n\n\n\n\n\n",
+      "productURL": "https://th.bing.com/th/id/OIP._MPujSBYEC-zWt0mYgOYFgHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-06",
+      "oldPrice": "12,000",
+      "newPrice": "5,999"
+    },
+    {
+      "id": "db2f",
+      "category": "furnitures",
+      "subcategory": "Bookshelves",
+      "productName": "Zigzag bookshelve",
+      "productDescription": "Add a modern touch to your space with this simple zigzag bookshelf. Its unique design combines style and practicality, providing ample space to showcase your books, decor, and more. Compact and elegant, it’s perfect for any room.",
+      "productURL": "https://th.bing.com/th/id/R.b7a9ee86b6b58a40b9aac53f30c56269?rik=GLAb8TtB20V3yg&riu=http%3a%2f%2fbookglow.net%2fwp-content%2fuploads%2f2015%2f12%2f7-2.jpg&ehk=rio5UUQ95EqCu2YQqm2yqb%2fUeiY1xEY9f6kCQSea01w%3d&risl=&pid=ImgRaw&r=0",
+      "productDate": "2024-12-06",
+      "oldPrice": "1200",
+      "newPrice": "499"
+    },
+    {
+      "id": "0003",
+      "category": "furnitures",
+      "subcategory": "dressers ",
+      "productName": "Sauder palladia traditional dresser",
+      "productDescription": "Organize your essentials in style with this elegant wooden dresser. Featuring spacious drawers and a sleek design, it blends functionality with timeless charm. Perfect for bedrooms or dressing areas, it’s a must-have for a clutter-free space.",
+      "productURL": "https://i5.walmartimages.com/asr/fe5c4a80-a834-45d0-9c2c-019da0aa37a7_3.8060b4be5c50087cea9b61f9cc0ddb51.jpeg",
+      "productDate": "2024-12-18",
+      "oldPrice": "3000",
+      "newPrice": "2200"
+    },
+    {
+      "id": "f8b4",
+      "category": "furnitures",
+      "subcategory": "Office desk",
+      "productName": "3 - tier computer office desk ",
+      "productDescription": "Designed specifically to be minimalist and space-savings, this pine-colored desk doesn’t just look the look, but is made out of durable 15mm MDF boards with one large compartment appropriate for a desktop computer, and 3-drawers for documents and office supplies.\n\n",
+      "productURL": "https://www.modernohouse.com/wp-content/uploads/2021/06/557651715-1-1536x1536.jpg",
+      "productDate": "2024-12-16",
+      "oldPrice": "3999",
+      "newPrice": "1200"
+    },
+    {
+      "id": "697a",
+      "category": "furnitures",
+      "subcategory": "Study table",
+      "productName": "Burges study table",
+      "productDescription": "Create a productive workspace with this sleek and sturdy study table. Designed for comfort and functionality, it features a spacious surface and durable construction, making it perfect for studying, working, or crafting. An ideal addition to any home or office.",
+      "productURL": "https://th.bing.com/th/id/OIP.Uv-xjvwMsw8bdz841Bvg3QAAAA?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-17",
+      "oldPrice": "1000",
+      "newPrice": "700"
+    },
+    {
+      "id": "7339",
+      "category": "furnitures",
+      "subcategory": "shoe racks",
+      "productName": "Classical shoe rack",
+      "productDescription": "Keep your footwear organized with this simple and functional shoe rack. Its compact design provides ample storage for shoes while saving space. Durable and easy to assemble, it’s perfect for maintaining a neat and tidy entryway.",
+      "productURL": "https://th.bing.com/th/id/OIP.3oxO9ep4bvfZ2BQRwXLvxQHaH0?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-24",
+      "oldPrice": "900",
+      "newPrice": "400"
+    },
+    {
+      "id": "d1eb",
+      "category": "Tools",
+      "subcategory": "Hand tools",
+      "productName": "Steel plier",
+      "productDescription": "Steel pliers are essential hand tools crafted for durability and versatility. Made from high-quality steel, they are perfect for gripping, bending, cutting, and twisting wires or small objects. Their ergonomic design ensures a firm grip and ease of use, making them ideal for construction, electrical, and DIY projects.",
+      "productURL": "https://m.media-amazon.com/images/I/61qJ485KguL._SL1500_.jpg",
+      "productDate": "2024-12-22",
+      "oldPrice": "200",
+      "newPrice": "149"
+    },
+    {
+      "id": "a2a8",
+      "category": "home decoration ",
+      "subcategory": "Indoor plants",
+      "productName": "indoor plant",
+      "productDescription": "Indoor plants are a wonderful addition to any home, offering a range of benefits that go beyond their aesthetic appeal. They help purify the air by absorbing toxins and releasing oxygen, creating a healthier and fresher environment. Plants like the Snake Plant, Peace Lily, and Spider Plant are particularly effective in improving indoor air quality, especially in spaces with poor ventilation. In addition to enhancing air quality, indoor plants contribute to the overall ambiance of a room, adding a touch of natural beauty that complements various interior design styles. The presence of greenery can reduce stress, promote relaxation, and boost mood, providing a calming and therapeutic effect. Furthermore, caring for indoor plants fosters a sense of responsibility and connection to nature, offering a mindful break from the daily grind. Many indoor plants are low-maintenance and can thrive with minimal attention, making them suitable for beginners. Whether you're looking to brighten up your living room, office, or bedroom, indoor plants offer an easy and effective way to improve both the aesthetic and health of your home.",
+      "productURL": "https://fedandfit.com/wp-content/uploads/2020/06/houseplants-scaled-e1593515074870.jpeg",
+      "productDate": "",
+      "oldPrice": "900",
+      "newPrice": "399"
+    },
+    {
+      "id": "9bb9",
+      "category": "Tools",
+      "subcategory": "Hand tools",
+      "productName": "Saw",
+      "productDescription": "\nA hand saw is a versatile and essential tool used for cutting wood, plastic, metal, and other materials. It consists of a serrated blade with teeth along its edge, designed to make precise, straight cuts. Hand saws come in various types, each suited to specific cutting tasks. For example, a crosscut saw is ideal for cutting across the grain of wood, while a rip saw is designed for cutting along the grain. The handle, typically made of wood, plastic, or rubber, provides a secure grip for better control and accuracy during use. Hand saws are commonly used in carpentry, construction, and DIY projects, offering a portable, manual solution for cutting tasks without the need for power tools. Their simplicity, affordability, and effectiveness make them indispensable for both professionals and hobbyists.",
+      "productURL": "https://th.bing.com/th/id/OIP.-LnFhXv1sMoS_CT6VGpBewHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-17",
+      "oldPrice": "1200",
+      "newPrice": "700"
+    },
+    {
+      "id": "67dc",
+      "category": "Tools",
+      "subcategory": "Power tools",
+      "productName": "Drill",
+      "productDescription": "A drill is a versatile power tool used for drilling holes in various materials such as wood, metal, plastic, and masonry. Equipped with a rotating drill bit, drills can easily bore precise holes of different sizes, making them essential in construction, woodworking, and home improvement projects. Most drills feature adjustable speed settings and different modes, such as hammering for masonry or standard drilling for softer materials. Corded and cordless models are available, offering flexibility depending on the user's needs. With ergonomic handles and lightweight designs, drills provide comfort and control, allowing users to work efficiently and with precision. Whether you're assembling furniture, installing shelves, or working on complex construction tasks, a drill is a must-have tool for both professionals and DIY enthusiasts.",
+      "productURL": "https://th.bing.com/th/id/R.044346bcbff3f7d6d64431e65cb99aa8?rik=CPC9odGxXL6ERg&riu=http%3a%2f%2fkingfisher.scene7.com%2fis%2fimage%2fKingfisher%2f5054905021764_01c&ehk=eFcm9z2nNRDGG9jESBqHtMesX5ThtbrDGFIkoe0oRjw%3d&risl=&pid=ImgRaw&r=0",
+      "productDate": "2024-12-25",
+      "oldPrice": "900",
+      "newPrice": "400"
+    },
+    {
+      "id": "42c8",
+      "category": "Tools",
+      "subcategory": "Vehicle tools",
+      "productName": "Car jack",
+      "productDescription": "A Car Jack is an essential tool for any vehicle owner, designed to lift a car off the ground to allow for maintenance or tire changes. Typically used for tasks like replacing flat tires, performing brake work, or inspecting the underside of the vehicle, a car jack is crucial for ensuring safe and easy access to your car's components. Available in different types, such as scissor jacks, hydraulic jacks, and bottle jacks, each offers unique benefits depending on the weight and design of the vehicle. Scissor jacks are compact and often included in vehicles' emergency kits, while hydraulic jacks provide more lifting power for heavier vehicles. Car jacks are designed to be sturdy and easy to use, providing reliable support while working on your car. Whether you're a DIY enthusiast or a professional mechanic, a car jack is an indispensable tool to keep in your vehicle or garage",
+      "productURL": "https://i5.walmartimages.com/asr/52670454-d5a7-4652-89a4-d586569fd940.0374158769cc1c1ae00d5f0932936305.jpeg",
+      "productDate": "2024-12-18",
+      "oldPrice": "1500",
+      "newPrice": "600"
+    },
+    {
+      "id": "1774",
+      "category": "Tools",
+      "subcategory": "Measuring tools",
+      "productName": "Measuring tap",
+      "productDescription": "A Tape Measure is a versatile and essential tool for measuring lengths, widths, heights, and depths with precision. Often used in construction, woodworking, home improvement, and various DIY projects, this flexible measuring tool features a retractable steel or fiberglass blade marked with both imperial and metric measurements for easy reference. Tape measures come in a variety of lengths, typically ranging from 12 feet to 100 feet, and are housed in a durable, compact case for easy storage and portability. Some models also include features like locking mechanisms to hold the tape in place, magnetic tips for hands-free measuring, and impact-resistant casings for added durability. Whether you're measuring spaces for furniture, installing fixtures, or working on detailed craft projects, a tape measure is a reliable tool to ensure accurate and efficient measurements every time.",
+      "productURL": "https://th.bing.com/th/id/OIP.iufJe60p8l5HPW_S4efLeQHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-06",
+      "oldPrice": "100",
+      "newPrice": "50"
+    },
+    {
+      "id": "6702",
+      "category": "Tools",
+      "subcategory": "Electrical tools",
+      "productName": "Multi meter",
+      "productDescription": "A Multimeter is an indispensable electrical tool used for measuring various electrical properties such as voltage, current, and resistance. It is essential for electricians, technicians, and DIY enthusiasts working on electrical circuits, testing wires, or diagnosing electrical issues in appliances and vehicles. Multimeters come in two main types: analog and digital, with digital multimeters offering a more accurate and easier-to-read display. Advanced models may include additional features such as continuity testing, temperature measurement, and diode testing. Compact, portable, and user-friendly, a multimeter is designed to provide reliable readings in both low and high-voltage environments, making it an essential tool for electrical work, repairs, and troubleshooting. Whether you're working with home electrical systems or professional installations, a multimeter ensures safe and efficient electrical testing.",
+      "productURL": "https://d2j6dbq0eux0bg.cloudfront.net/images/17412255/1669418564.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "500",
+      "newPrice": "399"
+    },
+    {
+      "id": "2b54",
+      "category": "Tools",
+      "subcategory": "Construction tools",
+      "productName": "Hammer",
+      "productDescription": " A Hammer is one of the most fundamental and versatile tools in construction, designed for driving nails, fitting parts, breaking apart objects, or even shaping materials. Typically consisting of a heavy \"head\" (often made of steel) attached to a long handle (commonly made from wood, fiberglass, or steel), hammers are essential for various tasks in construction and woodworking. The most common type is the claw hammer, which features a flat striking face on one side and a split, curved claw on the other for pulling nails. Hammers come in different sizes and designs, such as sledgehammers for heavy-duty tasks or ball-peen hammers for shaping metal. Whether you're framing, installing drywall, or performing general repairs, a hammer is a must-have tool in any construction toolkit, offering reliability and power for a wide range of applications.",
+      "productURL": "https://m.media-amazon.com/images/I/711yBjuXTpL.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "100",
+      "newPrice": "70"
+    },
+    {
+      "id": "09c8",
+      "category": "Tools",
+      "subcategory": "Safety tools",
+      "productName": "Safety googgles",
+      "productDescription": "Safety Goggles are essential protective equipment designed to shield the eyes from hazards in various environments, including construction sites, laboratories, workshops, and during DIY projects. These goggles are designed to provide a secure, close-fitting barrier around the eyes to protect against flying debris, dust, chemicals, and harmful splashes. Made from impact-resistant materials such as polycarbonate, safety goggles are equipped with adjustable straps for a comfortable and snug fit. Some models also feature anti-fog and scratch-resistant coatings for enhanced durability and clarity, ensuring optimal vision during use. Whether you're working with power tools, handling chemicals, or operating machinery, safety goggles provide vital protection to prevent eye injuries and enhance overall safety on the job.",
+      "productURL": "https://us.novritsch.com/wp-content/uploads/2019/03/goggles.jpg",
+      "productDate": "2024-12-19",
+      "oldPrice": "400",
+      "newPrice": "267"
+    },
+    {
+      "id": "969d",
+      "category": "Toys",
+      "subcategory": "Dolls and Figures",
+      "productName": "Fashion doll",
+      "productDescription": "Fashion Dolls are popular toys designed for imaginative play, featuring a doll with interchangeable clothes, accessories, and hairstyles. These dolls are often modeled after adult figures, and they allow children to create various outfits and scenarios. Fashion dolls are typically made of plastic, with movable limbs and heads, and come in different styles and sizes. They are often sold with a variety of accessories, including shoes, hats, jewelry, and even miniature pets. These dolls encourage creativity, storytelling, and social interaction, as children dress them up, create adventures, and act out different roles. Fashion dolls have been a favorite for decades, continuing to evolve with modern trends and cultural representation. Whether it’s for play or collection, these dolls offer endless possibilities for fun and expression.",
+      "productURL": "https://i5.walmartimages.com/asr/2bb23fe9-a3d7-454e-bc0d-c4d6ae161bcd_1.b2f71ad34b9e2417268189ea03eb96d4.jpeg",
+      "productDate": "2024-12-13",
+      "oldPrice": "100",
+      "newPrice": "49"
+    },
+    {
+      "id": "9a89",
+      "category": "Toys",
+      "subcategory": "Building toys",
+      "productName": "LEGOs",
+      "productDescription": "LEGO Building Sets are iconic construction toys that allow children (and adults) to build intricate structures, vehicles, and characters using interlocking plastic bricks. These sets come in a wide variety of themes, from classic bricks to licensed collections based on popular movies, TV shows, and video games. LEGO sets are designed to stimulate creativity, problem-solving, and fine motor skills as builders follow instructions or design their own unique creations. With endless possibilities for construction, LEGO sets encourage imaginative play, collaborative building, and hands-on learning. Whether it's assembling a detailed city, constructing a spaceship, or building a fantasy world, LEGO offers fun and educational experiences for builders of all ages",
+      "productURL": "https://images-na.ssl-images-amazon.com/images/I/81MYj9BsHWL._AC_SL1500_.jpg",
+      "productDate": "2024-12-13",
+      "oldPrice": "900",
+      "newPrice": "600"
+    },
+    {
+      "id": "a029",
+      "category": "Toys",
+      "subcategory": "Puzzels",
+      "productName": "River city puzzel",
+      "productDescription": ": Puzzles are engaging and educational toys that challenge individuals to assemble pieces into a complete image or structure. Available in various sizes, themes, and difficulty levels, puzzles range from simple jigsaw puzzles for young children to complex puzzles with thousands of pieces for adults. Puzzles help develop critical thinking, problem-solving skills, and attention to detail, making them both entertaining and intellectually stimulating. Whether it's a scenic landscape, a favorite character, or a custom design, puzzles encourage focus, patience, and the satisfaction of completing a task. Perfect for solo play or group activities, puzzles offer a timeless way to unwind while stimulating the mind.",
+      "productURL": "https://media.s-bol.com/Brkgp8yngvRQ/1118x1200.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "400",
+      "newPrice": "160"
+    },
+    {
+      "id": "16fb",
+      "category": "Toys",
+      "subcategory": "Electronic toys",
+      "productName": "Enteractive robot toy",
+      "productDescription": " An Interactive Robot Toy is an electronic toy designed to engage children with voice commands, movements, and activities. These robots are equipped with sensors and programmed to perform various tasks such as walking, talking, dancing, and even answering questions. Some models allow kids to program the robot or interact with it using a smartphone app. Interactive robot toys foster creativity, problem-solving, and learning, especially in areas like coding and robotics. With fun features like light-up eyes, sound effects, and customizable behaviors, these robots provide an entertaining and educational experience, making them a popular choice for tech-savvy children.",
+      "productURL": "https://i5.walmartimages.com/asr/738cf19a-89b3-47ff-8614-a57796f987ab_1.23118d930df6f5b9dcdf5f2355342ab4.jpeg",
+      "productDate": "2024-12-11",
+      "oldPrice": "2000",
+      "newPrice": "1200"
+    },
+    {
+      "id": "fed3",
+      "category": "Toys",
+      "subcategory": "Outdoor and sports",
+      "productName": "Bounce house ",
+      "productDescription": "A Bounce House, also known as a bouncy castle, is a popular outdoor toy that provides hours of fun for children. Made from durable, inflatable material, bounce houses come in various shapes and sizes, including castles, slides, and obstacle courses. They are designed to be set up outdoors, either in backyards or at parties, and are perfect for events such as birthdays or family gatherings. Bounce houses allow kids to jump, bounce, and play freely while helping to develop their physical coordination, balance, and social skills. With vibrant colors and fun designs, they create a safe, exciting environment for children to enjoy active play and exercise outdoors.\n\n",
+      "productURL": "https://th.bing.com/th/id/OIP.53bAVkUDh7xuhGgEDxc-xQHaG7?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-13",
+      "oldPrice": "5000",
+      "newPrice": "3200"
+    },
+    {
+      "id": "9589",
+      "category": "Toys",
+      "subcategory": "Board and cards",
+      "productName": "UNO ",
+      "productDescription": "UNO is a classic and exciting card game that’s easy to learn and fun for all ages. Played with a deck of colorful cards, each featuring different numbers, colors, and special action cards, the objective is to be the first player to get rid of all your cards. Players take turns matching a card from their hand with the top card of the discard pile by either color or number. Special action cards, such as Skip, Reverse, and Draw Two, add strategic twists and keep the game unpredictable. The game also features the Wild and Wild Draw Four cards, which allow players to change the color in play. UNO is perfect for family game nights, parties, and gatherings, offering hours of competitive fun, while also teaching kids about strategy, matching, and decision-making.",
+      "productURL": "https://www.avalankids.com.au/assets/full/W2087.jpg?20200707033535",
+      "productDate": "2024-12-22",
+      "oldPrice": "200",
+      "newPrice": "150"
+    },
+    {
+      "id": "4f2e",
+      "category": "Toys",
+      "subcategory": "Role playing sets and kits",
+      "productName": "Doctor kit",
+      "productDescription": " A Doctor Kit is a fun and educational role-playing toy that allows children to step into the shoes of a doctor and engage in imaginative play. The kit typically includes child-sized tools such as a stethoscope, thermometer, syringe, reflex hammer, and other medical instruments. Children can pretend to examine, diagnose, and treat patients, which helps foster creativity and empathy while learning about the medical profession. Role-playing with a doctor kit encourages social interaction, communication skills, and problem-solving. It also gives children the opportunity to develop confidence and understand the importance of health care in a fun and non-threatening way, making it a perfect addition to any playroom.",
+      "productURL": "https://th.bing.com/th/id/OIP.FD4xZc9_rbZEr77vTL-xkAHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-03",
+      "oldPrice": "150",
+      "newPrice": "100"
+    },
+    {
+      "id": "31a4",
+      "category": "home decoration ",
+      "subcategory": "Wall arts and prints",
+      "productName": "Canvas wall art",
+      "productDescription": "Transform any room with the Abstract Landscape Canvas Wall Art. This stunning piece combines vibrant colors and fluid shapes to evoke a sense of calm and serenity. Featuring an abstract representation of nature, it offers a unique, modern twist on traditional landscape art. Made with high-quality canvas material, it is both durable and visually striking. Whether displayed in a living room, bedroom, or office, this art piece adds a pop of color and personality to any space. The canvas comes ready to hang, making it an effortless way to enhance your home décor. Perfect for those who appreciate contemporary design, this wall art is a conversation starter that brings sophistication and style to your walls.",
+      "productURL": "https://th.bing.com/th/id/OIP.S1doM-tElVgEKBLbnGf_iAHaHJ?rs=1&pid=ImgDetMain",
+      "productDate": "",
+      "oldPrice": "1000",
+      "newPrice": "700"
+    },
+    {
+      "id": "9900",
+      "category": "home decoration ",
+      "subcategory": "lightenings",
+      "productName": "Modern LED floor lamp",
+      "productDescription": "The Modern LED Floor Lamp is a sleek and functional lighting solution designed to elevate any room with its contemporary style. Featuring energy-efficient LED technology, this lamp provides a bright, even light that is perfect for reading, working, or creating a cozy ambiance. The adjustable design allows you to direct the light exactly where you need it, making it versatile for various settings such as living rooms, bedrooms, or home offices. The slim, minimalist frame fits seamlessly into any décor, and its long-lasting LED bulbs reduce energy consumption while providing a warm, inviting glow. Whether you're looking to brighten a corner or add an elegant touch to your space, this floor lamp is both stylish and practical.",
+      "productURL": "https://m.media-amazon.com/images/I/51gYITGLknL.jpg",
+      "productDate": "2024-12-12",
+      "oldPrice": "4000",
+      "newPrice": "3700"
+    },
+    {
+      "id": "9be8",
+      "category": "home decoration ",
+      "subcategory": "textiles",
+      "productName": "Premium cotton bedsheet set",
+      "productDescription": "Upgrade your bedroom with the Premium Cotton Bed Sheet Set, designed for ultimate comfort and durability. Made from 100% high-quality cotton, this soft and breathable set ensures a restful night's sleep. The smooth, luxurious texture of the sheets is gentle on the skin, while the breathable fabric keeps you cool and comfortable throughout the night. Available in a variety of colors and patterns, this bed sheet set easily complements any bedroom décor. The set includes a fitted sheet, flat sheet, and pillowcases, all made to fit standard bed sizes. Whether you're looking to refresh your current bedding or create a cozy, stylish bedroom, this cotton sheet set provides the perfect balance of comfort, quality, and design.",
+      "productURL": "https://th.bing.com/th/id/OIP.6sH8O5W5UXarDhZDxB1WsgHaG6?rs=1&pid=ImgDetMain",
+      "productDate": "",
+      "oldPrice": "500",
+      "newPrice": "399"
+    },
+    {
+      "id": "dda3",
+      "category": "home decoration ",
+      "subcategory": "personalized items",
+      "productName": "Personalized wooden photo frame ",
+      "productDescription": "Capture and cherish your special moments with the Personalized Engraved Wooden Photo Frame. Crafted from high-quality wood, this elegant photo frame can be customized with a name, date, or heartfelt message, making it the perfect gift for weddings, anniversaries, birthdays, or any occasion. The timeless design complements any décor, while the engraving adds a personal touch that makes the frame uniquely yours. Whether displayed on a mantel, desk, or bedside table, this photo frame is a beautiful way to preserve memories and celebrate life's milestones. A thoughtful and meaningful gift that is sure to be treasured for years to come.",
+      "productURL": "https://i.pinimg.com/originals/c2/8b/8c/c28b8cc490aee782c46c4322e516390e.jpg",
+      "productDate": "2024-12-05",
+      "oldPrice": "400",
+      "newPrice": "300"
+    },
+    {
+      "id": "2455",
+      "category": "clothing",
+      "subcategory": "black trousers",
+      "productName": "Black trouser ",
+      "productDescription": "Elevate your wardrobe with the Men's Classic Black Trouser, a versatile and timeless piece that offers both comfort and style. Made from a high-quality fabric blend, these trousers feature a sleek, tailored fit that ensures a sharp, sophisticated look. The black color adds a touch of elegance, making them perfect for both formal and semi-formal occasions. Whether worn for a business meeting, a special event, or a night out, these trousers are designed to provide all-day comfort while keeping you looking polished. The thoughtful design includes belt loops, pockets, and a zip fly for convenience, while the durable material ensures longevity. A must-have wardrobe essential that pairs seamlessly with a variety of shirts, blazers, and shoes.",
+      "productURL": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/collections/96342-24cw/96342-24CW_F.jpg",
+      "productDate": "2024-12-20",
+      "oldPrice": "700",
+      "newPrice": "500"
+    },
+    {
+      "id": "545a",
+      "category": "clothing",
+      "subcategory": "Tops",
+      "productName": "Women's casual top",
+      "productDescription": "Stay stylish and comfortable with our Women's Casual Tops, designed to effortlessly complement your everyday look. Made from soft, breathable fabrics, these tops are perfect for all-day wear, whether you're heading out for a casual outing, running errands, or relaxing at home. Available in a variety of colors, patterns, and styles, including t-shirts, blouses, and tunics, there's a top for every occasion. The versatile design pairs easily with jeans, skirts, or leggings, making it a must-have in every wardrobe. With a focus on quality and comfort, these tops provide a flattering fit while keeping you feeling relaxed and chic. Ideal for layering or wearing on their own, they can be dressed up or down depending on your mood and style.",
+      "productURL": "https://th.bing.com/th/id/OIP.4rBzytl55VtgGtYF6sfSWgHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-17",
+      "oldPrice": "800",
+      "newPrice": "600"
+    },
+    {
+      "id": "9649",
+      "category": "clothing",
+      "subcategory": "Bottoms",
+      "productName": "Stylish bottoms for men and women",
+      "productDescription": "Elevate your wardrobe with our collection of Stylish Bottoms for Men and Women, designed to cater to every style and occasion. From sleek trousers and chinos to relaxed joggers and versatile denim, this collection offers a wide variety of options for both comfort and fashion. Made from high-quality fabrics, these bottoms are crafted to provide a perfect fit and lasting durability. Whether you're dressing up for work, enjoying a casual outing, or looking for a comfortable option for everyday wear, our bottoms are designed to suit every lifestyle. With various cuts, fits, and styles available—such as skinny, wide-leg, cargo, and high-waisted—there's something for everyone. Versatile and easy to pair with any top, our bottoms ensure you look your best while feeling comfortable all day long. Perfect for all genders, this collection offers the ideal mix of functionality and trendiness for both men and women.",
+      "productURL": "https://miro.medium.com/v2/resize:fit:400/1*WBPauiTxx__BMpZDZcqcSg.jpeg",
+      "productDate": "2024-12-20",
+      "oldPrice": "900",
+      "newPrice": "799"
+    },
+    {
+      "id": "1a1b",
+      "category": "clothing",
+      "subcategory": "Dresses",
+      "productName": "Elegant dress for every occasion",
+      "productDescription": "Discover the perfect blend of sophistication and style with our collection of Elegant Dresses for women. From casual day dresses to stunning evening gowns, each piece is designed to make you feel confident and chic. Our dresses come in a range of styles, including A-line, bodycon, maxi, and shift dresses, ensuring there's a perfect option for every occasion. Crafted from high-quality fabrics, our dresses are designed to offer comfort, durability, and a flattering fit. Whether you're attending a formal event, going out for a casual gathering, or enjoying a relaxed day out, our dresses will have you turning heads. Available in a variety of colors, patterns, and cuts, these dresses can easily be dressed up with accessories or kept simple for an effortlessly stylish look. Find your perfect fit and elevate your wardrobe with a timeless dress that suits your personal style.",
+      "productURL": "https://i.pinimg.com/originals/ae/ee/41/aeee41f2a41fc1dcb0002fba161e8ad5.png",
+      "productDate": "",
+      "oldPrice": "2500",
+      "newPrice": "2000"
+    },
+    {
+      "id": "d3a0",
+      "category": "clothing",
+      "subcategory": "Outerwear",
+      "productName": "Classic whool overcoat",
+      "productDescription": "Embrace elegance and warmth with our Classic Wool Overcoat. Made from premium wool blend fabric, this timeless piece offers superior insulation to keep you cozy during colder months. Featuring a clean, tailored fit with a double-breasted front, notched lapels, and functional side pockets, this overcoat is perfect for both formal and casual occasions. The neutral color options make it versatile enough to pair with suits or casual outfits, making it a staple for your wardrobe. Designed to offer a sophisticated silhouette, the Classic Wool Overcoat is a must-have for anyone looking to combine fashion with functionality.",
+      "productURL": "https://happygentleman.com/wp-content/uploads/2019/11/men-s-classic-wool-long-overcoat-grey-34uk-2-1024x1024.jpg",
+      "productDate": "2024-12-26",
+      "oldPrice": "3000",
+      "newPrice": "2500"
+    },
+    {
+      "id": "01e5",
+      "category": "clothing",
+      "subcategory": "Accessories",
+      "productName": "Leather wallet",
+      "productDescription": "Our Leather Wallet is the perfect blend of style and practicality. Crafted from high-quality, genuine leather, it boasts a sleek and elegant design that suits both casual and formal settings. This wallet features multiple card slots, a bill compartment, and a coin pocket, ensuring you have ample space to store your essentials. The durable stitching and smooth texture provide long-lasting quality, while the slim profile fits comfortably in your pocket or bag. Whether you're heading to work or out for a casual outing, the Leather Wallet is a sophisticated accessory that adds a touch of class to your everyday carry",
+      "productURL": "https://i.etsystatic.com/16971055/r/il/4e0cf5/3021061575/il_1588xN.3021061575_7om9.jpg",
+      "productDate": "2024-12-20",
+      "oldPrice": "500",
+      "newPrice": "300"
+    },
+    {
+      "id": "494a",
+      "category": "clothing",
+      "subcategory": "Footwear",
+      "productName": "Classic leather boots",
+      "productDescription": "Step out in style with our Men’s Classic Leather Boots. Made from premium, durable leather, these boots are designed to provide both comfort and sophistication. The sturdy rubber sole ensures excellent traction, while the cushioned insole supports your feet throughout the day. Featuring a timeless lace-up design and a sleek silhouette, these boots are perfect for casual outings, work, or even dressier occasions. Whether paired with jeans, chinos, or a suit, the Men’s Classic Leather Boots add a touch of rugged elegance to any ensemble. With their high-quality craftsmanship and versatile style, these boots are a must-have addition to your footwear collection.",
+      "productURL": "https://th.bing.com/th/id/OIP.c6heLGvE7ZBiAoWYStCLIQHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-06",
+      "oldPrice": "1000",
+      "newPrice": "699"
+    },
+    {
+      "id": "69c0",
+      "category": "clothing",
+      "subcategory": "Activewears",
+      "productName": "Gym shorts",
+      "productDescription": "Elevate your workout wardrobe with our Men’s Performance Gym Shorts. Designed for comfort and flexibility, these shorts are made from moisture-wicking, breathable fabric that keeps you cool and dry during even the most intense workouts. The lightweight material allows for a full range of motion, making them perfect for running, weightlifting, or any activity that requires agility. With an adjustable drawstring waistband for a secure fit and side pockets for convenience, these gym shorts combine functionality and style. Whether you're hitting the gym, going for a jog, or relaxing at home, the Men’s Performance Gym Shorts are the perfect choice for an active lifestyle.",
+      "productURL": "https://i5.walmartimages.com/seo/Herrnalise-Men-s-Mesh-Athletic-Performance-Gym-Shorts-Men-s-Summer-Thin-Mid-waist-Beach-Pants-Casual-Five-point-Sports-Shorts-Pants_ae69e8ec-9e22-47b4-aadc-e4e5ef213d2f.ed9e8e73a20cbe2833f2202e008c02cc.jpeg",
+      "productDate": "2024-12-10",
+      "oldPrice": "300",
+      "newPrice": "200"
+    },
+    {
+      "id": "18a4",
+      "category": "clothing",
+      "subcategory": "loungewears",
+      "productName": "Cozy lounge set",
+      "productDescription": "Unwind in style with our Men's Comfort Lounge Shorts Set. Crafted from a premium cotton blend, this set features a breathable, soft-touch t-shirt paired with relaxed-fit lounge shorts, offering you the perfect combination of comfort and versatility. The t-shirt's classic design with short sleeves is ideal for warm days, while the shorts include an elastic waistband for a secure, adjustable fit. Whether you're lounging at home, enjoying a casual day out, or getting ready for a laid-back workout, this lounge set ensures you stay comfortable all day long. Elevate your relaxation routine with the Men's Comfort Lounge Shorts Set, a must-have for any wardrobe.",
+      "productURL": "https://th.bing.com/th/id/OIP.OimkQ3ZUBXLOdVyKXX5SCgHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2024-12-18",
+      "oldPrice": "700",
+      "newPrice": "400"
+    },
+    {
+      "id": "e13f",
+      "category": "electronics",
+      "subcategory": "mobile",
+      "productName": "VIVO Y16 ",
+      "productDescription": "\nThe vivo Y16 is an affordable and stylish smartphone designed to cater to your everyday needs. It features a 6.51-inch IPS LCD display with a resolution of 720 x 1600 pixels, offering clear and vibrant visuals for an enjoyable viewing experience. Powered by the MediaTek Helio P35 processor, the Y16 ensures smooth performance for everyday tasks like browsing, app usage, and casual gaming. With 3GB or 4GB of RAM and up to 128GB of storage, it provides ample space for your photos, videos, and apps. The dual rear camera setup includes a 13MP primary camera and a 2MP macro lens, delivering sharp photos and detailed close-ups. The 5000mAh battery ensures all-day usage, keeping you connected without frequent recharging.",
+      "productURL": "https://m.media-amazon.com/images/I/61TLDQrtEOL._SL1500_.jpg",
+      "productDate": "2025-01-08",
+      "oldPrice": "15,000",
+      "newPrice": "12,599"
+    },
+    {
+      "id": "e3ad",
+      "category": "electronics",
+      "subcategory": "mobile",
+      "productName": "iphone 14 pro",
+      "productDescription": "\nThe iPhone 14 Pro is a flagship smartphone from Apple, offering cutting-edge features and an elegant design. It boasts a stunning 6.1-inch Super Retina XDR display with ProMotion, delivering vibrant colors, deep blacks, and a smooth 120Hz refresh rate for enhanced visual fluidity. Powered by the A16 Bionic chip, the iPhone 14 Pro offers exceptional performance, making it ideal for demanding tasks such as gaming, video editing, and multitasking. The rear camera system includes a 48MP main sensor, offering incredible detail, along with a 12MP ultra-wide lens and a 12MP telephoto lens, allowing for versatile photography options, including optical zoom and macro shots. The iPhone 14 Pro also introduces the Dynamic Island, a unique design element that provides interactive notifications and quick access to key functions. With 5G connectivity, Face ID, and a 3200mAh battery that supports fast charging, the iPhone 14 Pro combines top-tier performance with premium features, making it one of the best smartphones on the market.",
+      "productURL": "https://media.extra.com/s/aurora/100322214_800/Apple-iPhone-14-Pro%2C-5G%2C-128GB%2C-Deep-Purple?locale=en-GB,en-*,*",
+      "productDate": "2025-01-12",
+      "oldPrice": "1,22,000",
+      "newPrice": "98,000"
+    },
+    {
+      "id": "dca4",
+      "category": "electronics",
+      "subcategory": "mobile",
+      "productName": "VIVO V77",
+      "productDescription": "The Vivo V77 is a feature-packed smartphone designed to cater to users looking for a blend of style, performance, and value. It sports a sleek design with a 6.44-inch AMOLED display, offering vibrant colors and deep contrasts for an immersive viewing experience. The device is powered by a capable MediaTek Dimensity processor, ensuring smooth performance whether you're browsing, streaming, or gaming.",
+      "productURL": "https://www.mobilebd.co/wp-content/uploads/2022/07/Vivo-Y77-China-Official-Image-.png",
+      "productDate": "2025-01-20",
+      "oldPrice": "25,000",
+      "newPrice": "20,000"
+    },
+    {
+      "id": "18e0",
+      "category": "electronics",
+      "subcategory": "mobile",
+      "productName": "VIVO T2 5G",
+      "productDescription": "\nThe Vivo T2 5G is a budget-friendly smartphone designed to deliver a fast, smooth experience while supporting the next-generation 5G network. Featuring a 6.38-inch AMOLED display, the device offers vibrant colors and excellent contrast, making it perfect for media consumption and gaming. The screen is protected by Corning Gorilla Glass 5, ensuring durability against daily wear and tear.",
+      "productURL": "https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg",
+      "productDate": "2025-01-07",
+      "oldPrice": "20,000",
+      "newPrice": "16,500"
+    },
+    {
+      "id": "0447",
+      "category": "electronics",
+      "subcategory": "mobile",
+      "productName": "Samsung galaxy S23 ",
+      "productDescription": "\nThe Samsung Galaxy S23 is a flagship smartphone that combines cutting-edge technology, premium design, and top-tier performance. Featuring a 6.1-inch Dynamic AMOLED 2X display, the Galaxy S23 offers vibrant colors, deep blacks, and smooth scrolling with a 120Hz refresh rate, making it perfect for gaming, media consumption, and daily tasks. The screen is protected by Corning Gorilla Glass Victus 2, ensuring durability and resistance to drops and scratches.",
+      "productURL": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Green-color.jpg",
+      "productDate": "",
+      "oldPrice": "1,50,000",
+      "newPrice": "1,24,000"
+    },
+    {
+      "id": "2678",
+      "category": "electronics",
+      "subcategory": "mobile",
+      "productName": "Samsung galaxy S23",
+      "productDescription": "The Samsung Galaxy S23 is a premium flagship smartphone designed to deliver top-tier performance, stunning visuals, and cutting-edge features. Equipped with a 6.1-inch Dynamic AMOLED 2X display, the Galaxy S23 offers vibrant colors, deep blacks, and a smooth 120Hz refresh rate for an immersive viewing experience. The display is also protected by Corning Gorilla Glass Victus 2, ensuring durability against drops and scratches.",
+      "productURL": "https://th.bing.com/th/id/OIP.d6wui7YGzRZsEVYX0NB4mAHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2025-01-14",
+      "oldPrice": "40,000",
+      "newPrice": "32,000"
+    },
+    {
+      "id": "1504",
+      "category": "electronics",
+      "subcategory": "Laptops",
+      "productName": "Dell XPS 13",
+      "productDescription": "Description: The Dell XPS 13 is a premium ultraportable laptop with a near-borderless 13.4-inch display, making it perfect for users who need portability without compromising on screen space. It’s powered by Intel Core processors and features a lightweight, aluminum design. Ideal for work, school, and entertainment.",
+      "productURL": "https://microless.com/cdn/products/ed1893149ad867b15577c751758393d9-hi.jpg",
+      "productDate": "2025-01-15",
+      "oldPrice": "60,000",
+      "newPrice": "57,000"
+    },
+    {
+      "id": "5678",
+      "category": "electronics",
+      "subcategory": "Laptops",
+      "productName": "HP elite dragonfly",
+      "productDescription": "Description: The HP Elite Dragonfly is a lightweight and premium business laptop with advanced security features. Built for professionals, it has a long battery life, a gorgeous 13.3-inch display, and an ultra-portable design. The Elite Dragonfly is ideal for those needing a laptop for work on the go.",
+      "productURL": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large_wm_brb/public/field/image/2020/03/hp-elite-dragonfly-review-presentation-mode.jpg",
+      "productDate": "2025-01-06",
+      "oldPrice": "52,000",
+      "newPrice": "49,000"
+    },
+    {
+      "id": "cef7",
+      "category": "electronics",
+      "subcategory": "Laptops",
+      "productName": " Lenovo ThinkPad X1 Carbon",
+      "productDescription": "Description: The ThinkPad X1 Carbon is a high-end business laptop that offers exceptional durability, a great keyboard, and a brilliant display. It comes with Intel Core processors, fast SSD storage, and long battery life. This laptop is highly recommended for business professionals and power users.",
+      "productURL": "https://th.bing.com/th/id/OIP.1lo0OJbOZIOPi9h1hsGkKQHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "2025-01-02",
+      "oldPrice": "55,000",
+      "newPrice": "50,000"
+    },
+    {
+      "id": "0025",
+      "category": "electronics",
+      "subcategory": "Laptops",
+      "productName": "Asus ZenBook 14",
+      "productDescription": "The ZenBook 14 is a premium ultrabook that combines performance, portability, and battery efficiency. Powered by Intel Core i7 processors and equipped with a high-resolution display, it’s perfect for students and professionals who need a reliable laptop for everyday tasks.",
+      "productURL": "https://www.bhphotovideo.com/images/images2500x2500/asus_ux431fa_eh55_zenbook_i5_10210u_8gb_512gb_1549032.jpg",
+      "productDate": "2025-01-08",
+      "oldPrice": "72,000",
+      "newPrice": "69,000"
+    },
+    {
+      "id": "dd7f",
+      "category": "electronics",
+      "subcategory": "Laptops",
+      "productName": "Apple MacBook Air",
+      "productDescription": "Description: The MacBook Air is known for its ultra-portability, sleek design, and long battery life. Powered by Apple’s M1 or M2 chips, it provides excellent performance for everyday tasks, including web browsing, document editing, and media consumption. It features a 13-inch Retina display and is perfect for those looking for a lightweight, reliable laptop.",
+      "productURL": "https://th.bing.com/th/id/OIP._tQt0JCaMuITPyC_-KaHDAHaHa?rs=1&pid=ImgDetMain",
+      "productDate": "",
+      "oldPrice": "2,20,000",
+      "newPrice": "1,98,000"
+    },
+    {
+      "id": "9467",
+      "category": "electronics",
+      "subcategory": "earphones",
+      "productName": "Sony MDR-EX155AP",
+      "productDescription": "Description: These lightweight earphones feature 9mm neodymium drivers for clear and powerful sound. The tangle-free cable includes an in-line microphone and remote for hands-free calls and music control, making them perfect for everyday use.",
+      "productURL": "https://d2j6dbq0eux0bg.cloudfront.net/images/1107006/1056060483.jpg",
+      "productDate": "2025-01-12",
+      "oldPrice": "400",
+      "newPrice": "350"
+    },
+    {
+      "id": "380a",
+      "category": "electronics",
+      "subcategory": "earphones",
+      "productName": " boAt BassHeads 225",
+      "productDescription": "Description: Designed for bass lovers, the boAt BassHeads 225 offers a punchy audio experience with 10mm drivers. Featuring a tangle-free flat cable, metal finish, and built-in mic, they are ideal for music and calls on the go.",
+      "productURL": "https://amdigital.in/wp-content/uploads/2021/05/01-20.jpg",
+      "productDate": "2025-01-13",
+      "oldPrice": "500",
+      "newPrice": "450"
+    },
+    {
+      "id": "51b5",
+      "category": "electronics",
+      "subcategory": "earphones",
+      "productName": "Panasonic ErgoFit RP-TCM125",
+      "productDescription": "",
+      "productURL": "https://cdn.shopify.com/s/files/1/1693/8993/products/Panmic_1_1024x1024.jpg?v=1545525259",
+      "productDate": "2025-01-19",
+      "oldPrice": "600",
+      "newPrice": "550"
+    },
+    {
+      "id": "cc4f",
+      "category": "electronics",
+      "subcategory": "earphones",
+      "productName": "Beyerdynamic Soul BYRD",
+      "productDescription": "Description: These premium wired earphones offer natural sound with strong bass and smooth treble. The ergonomic design fits comfortably, and the durable build ensures longevity. The in-line remote makes them easy to use for music and calls.\n",
+      "productURL": "https://skr.mu/wp-content/uploads/2023/01/1_0005_SOUL-BYRD-1.jpg",
+      "productDate": "2025-01-17",
+      "oldPrice": "800",
+      "newPrice": "770"
+    },
+    {
+      "id": "5d7f",
+      "category": "electronics",
+      "subcategory": "earphones",
+      "productName": "Realme Buds 2",
+      "productDescription": "Description: Equipped with 11.2mm drivers, the Realme Buds 2 deliver powerful bass and clear audio. The earphones come with a braided cable, magnetic ear tips, and an in-line mic, making them perfect for everyday use.",
+      "productURL": "https://i2.wp.com/www.dhakakart.com/content/images/thumbs/0002111_realme-buds-2-wired-earphones-with-mic-black_2048.jpeg",
+      "productDate": "",
+      "oldPrice": "700",
+      "newPrice": "500"
+    },
+    {
+      "id": "4db1",
+      "category": "electronics",
+      "subcategory": "smartwatch",
+      "productName": " Apple Watch Series 9",
+      "productDescription": "Description: The Apple Watch Series 9 features a sleek design with advanced health-tracking capabilities, including heart rate monitoring, blood oxygen level measurement, and ECG. Powered by the S9 chip, it offers improved performance and a brighter display. With seamless integration with iPhone, it supports calls, messages, and fitness tracking. Its water resistance and durable build make it perfect for daily use and workouts.",
+      "productURL": "https://media.cnn.com/api/v1/images/stellar/prod/apple-watch-series-9-stainless-steel-square-comparison-card-cnnu.jpg?c=1x1&q=h_1280,w_1280,c_fill",
+      "productDate": "2025-01-07",
+      "oldPrice": "40,000",
+      "newPrice": "36,000"
+    },
+    {
+      "id": "b0e4",
+      "category": "electronics",
+      "subcategory": "smartwatch",
+      "productName": "Samsung Galaxy Watch 6",
+      "productDescription": "Description: The Galaxy Watch 6 combines style and functionality with a vibrant AMOLED display and robust fitness tracking. It includes sleep monitoring, heart rate tracking, and an advanced body composition analyzer. Running on Wear OS, it supports Google apps, NFC payments, and offers a long-lasting battery, making it a great choice for Android users.",
+      "productURL": "https://fdn.gsmarena.com/imgroot/news/23/08/samsung-galaxy-watch6-classic-astro-edition/popup/-1200x1200m/gsmarena_002.jpg",
+      "productDate": "2025-01-03",
+      "oldPrice": "8,000",
+      "newPrice": "7,000"
+    },
+    {
+      "id": "06a5",
+      "category": "electronics",
+      "subcategory": "smartwatch",
+      "productName": "Amazfit GTR 4",
+      "productDescription": "Description: The Amazfit GTR 4 offers a premium design with a vibrant AMOLED display and long battery life of up to 14 days. It includes advanced fitness tracking features, a built-in Alexa voice assistant, and dual-band GPS for accurate outdoor tracking. It’s a budget-friendly option that doesn’t compromise on style or functionality.",
+      "productURL": "https://site-cdn.huami.com/static/amazfit/gt4/product/pc-img/6-3-right.jpg",
+      "productDate": "2025-01-09",
+      "oldPrice": "9,000",
+      "newPrice": "7,000"
+    },
+    {
+      "id": "210e",
+      "category": "electronics",
+      "subcategory": "smartwatch",
+      "productName": " OnePlus Nord Watch",
+      "productDescription": "Description: The OnePlus Nord Watch is a budget-friendly smartwatch with a sleek rectangular AMOLED display. It offers fitness tracking, heart rate monitoring, SpO2 measurement, and over 105 sports modes. Its affordable price and OnePlus ecosystem integration make it a great value-for-money option.",
+      "productURL": "https://th.bing.com/th/id/OIP.wGy_q-Q66dBNUmf0slPH7AAAAA?rs=1&pid=ImgDetMain",
+      "productDate": "2025-01-20",
+      "oldPrice": "1000",
+      "newPrice": "900"
+    }
+  ],
+  "manage-orders": [
+    {
+      "id": "d249"
+    }
+  ]
+}
